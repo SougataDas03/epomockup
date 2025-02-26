@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>ePOs2 App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:30:33</sys_created_on>
+        <sys_id>20e2acb5a139121010a92f62a890693a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ePOs2 App Config</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_app_config_20e2acb5a139121010a92f62a890693a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:30:33</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_app_config_20e2acb5a139121010a92f62a890693a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>landing</landing_path><name>ePOs2 App Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-11 13:30:33</sys_created_on><sys_id>20e2acb5a139121010a92f62a890693a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ePOs2 App Config</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ux_app_config_20e2acb5a139121010a92f62a890693a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-11 13:30:33</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>-1590578237</payload_hash>
+        <record_name>ePOs2 App Config</record_name>
+        <reverted_from/>
+        <source>e15cb511c331121044643eec050131a8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 06:44:21</sys_created_on>
+        <sys_id>c894a079c339121044643eec05013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19314d0fd880000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 07:17:03</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>8894a079a03912105543821fcf0fb500</update_guid>
+        <update_guid_history>8894a079a03912105543821fcf0fb500:-1590578237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:37:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>7fc47793334b49e89eaf3d5e28c46f10</sys_id>
+        <sys_metadata>20e2acb5a139121010a92f62a890693a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ePOs2 App Config</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_20e2acb5a139121010a92f62a890693a</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_20e2acb5a139121010a92f62a890693a">c894a079c339121044643eec05013100</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:37:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

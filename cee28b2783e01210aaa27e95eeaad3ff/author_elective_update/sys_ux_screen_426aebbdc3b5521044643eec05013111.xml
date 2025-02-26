@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Document Approvals App Config">a47c54bd9df51210d489cc2dc641203e</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Standard record page">756aabbdc3b5521044643eec050131e9</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>demo</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Dashboard">ec2aaf3dc3b5521044643eec050131cc</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-12 04:02:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>426aebbdc3b5521044643eec05013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_screen_426aebbdc3b5521044643eec05013111</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-12 04:02:13</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=426aebbdc3b5521044643eec05013111"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_screen_426aebbdc3b5521044643eec05013111</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Document Approvals App Config">a47c54bd9df51210d489cc2dc641203e</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Standard record page">756aabbdc3b5521044643eec050131e9</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>demo</name><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Dashboard">ec2aaf3dc3b5521044643eec050131cc</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-12 04:02:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>426aebbdc3b5521044643eec05013111</sys_id><sys_mod_count>0</sys_mod_count><sys_name>demo</sys_name><sys_overrides/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ux_screen_426aebbdc3b5521044643eec05013111</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-12 04:02:13</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=426aebbdc3b5521044643eec05013111"/></record_update>]]></payload>
+        <payload_hash>1901041842</payload_hash>
+        <record_name>demo</record_name>
+        <reverted_from/>
+        <source>03165475c3f5121044643eec050131f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-12 04:02:13</sys_created_on>
+        <sys_id>8e6aebbdc3b5521044643eec05013113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1931e8948a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-12 04:02:13</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>826aebbd9eb552106f6e789bf2a13b13</update_guid>
+        <update_guid_history>826aebbd9eb552106f6e789bf2a13b13:1901041842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-12 04:02:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>3475a73d89574db08b1305fbcef99d24</sys_id>
+        <sys_metadata>426aebbdc3b5521044643eec05013111</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_426aebbdc3b5521044643eec05013111</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_426aebbdc3b5521044643eec05013111">8e6aebbdc3b5521044643eec05013113</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-12 04:02:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ce56041483b41210aaa27e95eeaad3de" sys_domain="global" table="x_1097202_epos_epo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-18 02:32:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce56c41483b41210aaa27e95eeaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1097202_epos_epo" name="x_1097202_epos_epo" sys_domain="global" view="Default view">ce56041483b41210aaa27e95eeaad3de</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_epo" sys_domain="global" view="Default view">cee74f6783e01210aaa27e95eeaad361</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-18 02:32:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-18 02:32:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca56c41483b41210aaa27e95eeaad3b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1097202_epos_epo" name="x_1097202_epos_epo" sys_domain="global" view="Default view">ce56041483b41210aaa27e95eeaad3de</sys_ui_form>
+            <sys_ui_section caption="General Section" display_value="General Section" name="x_1097202_epos_epo" sys_domain="global" view="Default view">0256041483b41210aaa27e95eeaad3dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-18 02:32:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1097202_epos_epo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-18 02:32:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce56041483b41210aaa27e95eeaad3de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_epos_epo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ce56041483b41210aaa27e95eeaad3de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-18 02:32:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

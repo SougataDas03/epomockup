@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image/>
+        <name>upload_Saless.jpg</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 11:46:31</sys_created_on>
+        <sys_id>414ede92c3f5121044643eec05013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>upload_Saless.jpg</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>db_image_414ede92c3f5121044643eec05013139</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 11:46:31</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>db_image_414ede92c3f5121044643eec05013139</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image/>
+        <name>upload_Saless.jpg</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-13 11:46:31</sys_created_on>
+        <sys_id>414ede92c3f5121044643eec05013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>upload_Saless.jpg</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>db_image_414ede92c3f5121044643eec05013139</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-13 11:46:31</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+</record_update>]]></payload>
+        <payload_hash>-1568487827</payload_hash>
+        <record_name>upload_Saless.jpg</record_name>
+        <reverted_from/>
+        <source>80480d88c30b5210945e9e1d050131c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 09:03:58</sys_created_on>
+        <sys_id>00884d8cc30b5210945e9e1d05013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1944001a8820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:03:58</sys_updated_on>
+        <type>Images</type>
+        <update_guid>cc884d8cdf0b5210f6ff77eb03b26177</update_guid>
+        <update_guid_history>cc884d8cdf0b5210f6ff77eb03b26177:-1568487827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="upload_Saless.jpg">5c1d5a58c307d210945e9e1d05013114</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 09:51:55</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>0204c9d64ab4411480114155fae4c184</sys_id>
+        <sys_metadata>414ede92c3f5121044643eec05013139</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>upload_Saless.jpg</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>db_image_414ede92c3f5121044643eec05013139</sys_update_name>
+        <sys_update_version display_value="db_image_414ede92c3f5121044643eec05013139">00884d8cc30b5210945e9e1d05013178</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 09:51:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

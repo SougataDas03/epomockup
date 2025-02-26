@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>false</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>epo to get ui action</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	alert("in client script");
+    //Type appropriate comment here, and begin script below
+    //var glide_url = new GlideURL();
+    //glide_url.setFromCurrent();
+	//alert( glide_url.setFromCurrent());
+   // var target = glide_url.getParam("");
+    //alert(target);
+	//if(target=="true"){
+   var dialog = new GlideDialogWindow("AI_Landing_Page");
+   dialog.setTitle("Appointment Slots");
+   dialog.setSize(600, 600);
+   // var queryType = "initial";
+   // dialog.setPreference('query_type', queryType); //to identify first slot query
+    // dialog.setPreference('appt_id', g_form.getValue('number'));
+    // dialog.setPreference('start_date', g_form.getValue('u_start_date'));
+    // dialog.setPreference('end_date', g_form.getValue('u_end_date'));
+   dialog.removeCloseDecoration(); //Remove the close icon on the UI page
+   dialog.render();
+}
+//}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-29 03:21:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22e04f1f530e1610c9241ab0a0490e4b</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>epo to get ui action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_script_client_22e04f1f530e1610c9241ab0a0490e4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:42:50</sys_updated_on>
+        <table>x_1097202_epos_epo</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view>workspace-epo-workspace-0</view>
+    </sys_script_client>
+</record_update>

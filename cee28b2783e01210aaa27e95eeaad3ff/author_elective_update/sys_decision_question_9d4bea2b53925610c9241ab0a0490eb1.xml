@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>false</active>
+        <answer>5b4b2e2b53925610c9241ab0a0490ed1</answer>
+        <condition table="var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be">u_po_type=STK^EQ<item endquery="false" field="u_po_type" goto="false" newquery="false" operator="=" or="false" value="STK"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="PIDSAP ePO Approval Matrix">a2842ddc83349210aaa27e95eeaad3be</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be</input_table>
+        <label>PIDSAP ePO Approval Matrix_100</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 06:27:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d4bea2b53925610c9241ab0a0490eb1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PIDSAP ePO Approval Matrix_100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_decision_question_9d4bea2b53925610c9241ab0a0490eb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 07:08:41</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>64f9dae9db1e31dcf697684e139619be</instance_id>
+        <instance_name>dev203524</instance_name>
+        <name>sys_decision_question_9d4bea2b53925610c9241ab0a0490eb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>false</active><answer>5b4b2e2b53925610c9241ab0a0490ed1</answer><condition table="var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be">u_po_type=STK^EQ<item endquery="false" field="u_po_type" goto="false" newquery="false" operator="=" or="false" value="STK"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="PIDSAP ePO Approval Matrix">a2842ddc83349210aaa27e95eeaad3be</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be</input_table><label>PIDSAP ePO Approval Matrix_100</label><marked_for_deletion>true</marked_for_deletion><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-12 06:27:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9d4bea2b53925610c9241ab0a0490eb1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>PIDSAP ePO Approval Matrix_100</sys_name><sys_overrides/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_decision_question_9d4bea2b53925610c9241ab0a0490eb1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-12 07:08:41</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-1354226791</payload_hash>
+        <record_name>PIDSAP ePO Approval Matrix_100</record_name>
+        <reverted_from/>
+        <source>53807e8f5306d210c9241ab0a0490e8d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 07:08:41</sys_created_on>
+        <sys_id>8ac4bea753d25610c9241ab0a0490e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193b9b2c79a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 07:08:41</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>02c4bea77bd25610661b24c5236c052e</update_guid>
+        <update_guid_history>02c4bea77bd25610661b24c5236c052e:-1354226791,db4b2e2bd2925610bd9b4aedb91a7deb:2021062774,114bea2b3b92561037399bdc845c18b7:-753991828</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 07:08:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>0572b0354ba841a4916bb85753582204</sys_id>
+        <sys_metadata>9d4bea2b53925610c9241ab0a0490eb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PIDSAP ePO Approval Matrix_100</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_decision_question_9d4bea2b53925610c9241ab0a0490eb1</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_9d4bea2b53925610c9241ab0a0490eb1">8ac4bea753d25610c9241ab0a0490e2e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 07:08:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

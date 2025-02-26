@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Article page">60e2acb562391210c052dc68101f835e</macroponent>
+        <name>Show Submit Comment Alert</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "Comment posted."
+    }
+]</required_translations>
+        <script><![CDATA[async function handler({
+    api,
+    helpers
+}) {
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "submitCommentAlert",
+            status: "info",
+            icon: "info-circle-outline",
+            content: await helpers.translate("Comment posted."),
+            action: {
+                type: "dismiss"
+            }
+        }],
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:30:34</sys_created_on>
+        <sys_id>e0e2acb5723912102d982a4b4443c659</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Submit Comment Alert</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_client_script_e0e2acb5723912102d982a4b4443c659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:30:34</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

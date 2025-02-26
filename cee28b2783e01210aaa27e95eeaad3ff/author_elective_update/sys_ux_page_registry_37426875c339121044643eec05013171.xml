@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>7f426875c339121044643eec0501316d</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app>
+        <path>demoapprovals</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:27:59</sys_created_on>
+        <sys_id>37426875c339121044643eec05013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demoapprovals</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_page_registry_37426875c339121044643eec05013171</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:27:59</sys_updated_on>
+        <title>demoapprovals</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_page_registry_37426875c339121044643eec05013171</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>7f426875c339121044643eec0501316d</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app><path>demoapprovals</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-11 13:27:59</sys_created_on><sys_id>37426875c339121044643eec05013171</sys_id><sys_mod_count>0</sys_mod_count><sys_name>demoapprovals</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ux_page_registry_37426875c339121044643eec05013171</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-11 13:27:59</sys_updated_on><title>demoapprovals</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>98772020</payload_hash>
+        <record_name>demoapprovals</record_name>
+        <reverted_from/>
+        <source>03165475c3f5121044643eec050131f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:27:59</sys_created_on>
+        <sys_id>774260b5c339121044643eec0501312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1931b68e6170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:27:59</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>7b4260b55d3912102501c240c7152b2d</update_guid>
+        <update_guid_history>7b4260b55d3912102501c240c7152b2d:98772020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:29:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>09162cb19aa54954818957600dbc9184</sys_id>
+        <sys_metadata>37426875c339121044643eec05013171</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demoapprovals</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_37426875c339121044643eec05013171</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_37426875c339121044643eec05013171">774260b5c339121044643eec0501312e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:29:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

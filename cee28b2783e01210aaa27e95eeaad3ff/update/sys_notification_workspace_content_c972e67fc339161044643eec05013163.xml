@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content">
+    <sys_notification_workspace_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <name>test for workspace content</name>
+        <notification display_value="test for workspace">a3412afbc339161044643eec050131c3</notification>
+        <route display_value="Agent Workspace">cb1af195872023002941b53046cb0b4e</route>
+        <sys_class_name>sys_notification_workspace_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 03:58:41</sys_created_on>
+        <sys_id>c972e67fc339161044643eec05013163</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test for workspace content</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_notification_workspace_content_c972e67fc339161044643eec05013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 05:43:33</sys_updated_on>
+    </sys_notification_workspace_content>
+</record_update>

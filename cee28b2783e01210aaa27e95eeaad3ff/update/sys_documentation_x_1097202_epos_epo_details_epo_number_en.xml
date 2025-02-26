@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="epo_number" label="ePO number" language="en" table="x_1097202_epos_epo_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>epo_number</element>
+            <help/>
+            <hint/>
+            <label>ePO number</label>
+            <language>en</language>
+            <name>x_1097202_epos_epo_details</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-16 09:58:14</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>ePO number</sys_name>
+            <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+            <sys_update_name>sys_documentation_x_1097202_epos_epo_details_epo_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-16 10:00:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

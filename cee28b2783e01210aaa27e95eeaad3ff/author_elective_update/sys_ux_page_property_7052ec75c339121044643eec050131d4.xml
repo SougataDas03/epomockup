@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="demoapprovals">37426875c339121044643eec05013171</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:28:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>7052ec75c339121044643eec050131d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_page_property_7052ec75c339121044643eec050131d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:28:03</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1097202_epos.37426875c339121044643eec05013171.root.global.chrome_header</unique_name>
+        <value>{
+    "privatePage": {
+        "userPrefsEnabled": false,
+        "searchEnabled": false,
+        "currentScreenLinkConfiguration": {},
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [],
+            "secondaryItems": []
+        }
+    },
+    "publicPage": {
+        "menuEnabled": false,
+        "searchEnabled": false,
+        "logoRoute": {},
+        "actionButtons": []
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=7052ec75c339121044643eec050131d4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_page_property_7052ec75c339121044643eec050131d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="demoapprovals">37426875c339121044643eec05013171</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-11 13:28:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>7052ec75c339121044643eec050131d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ux_page_property_7052ec75c339121044643eec050131d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-11 13:28:03</sys_updated_on><type>json</type><unique_name>x_1097202_epos.37426875c339121044643eec05013171.root.global.chrome_header</unique_name><value>{
+    "privatePage": {
+        "userPrefsEnabled": false,
+        "searchEnabled": false,
+        "currentScreenLinkConfiguration": {},
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [],
+            "secondaryItems": []
+        }
+    },
+    "publicPage": {
+        "menuEnabled": false,
+        "searchEnabled": false,
+        "logoRoute": {},
+        "actionButtons": []
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=7052ec75c339121044643eec050131d4"/></record_update>]]></payload>
+        <payload_hash>-1978121377</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>03165475c3f5121044643eec050131f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:28:03</sys_created_on>
+        <sys_id>b852ec75c339121044643eec050131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1931b68f5570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:28:03</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>bc52ec758f3912109c02129f4447d5d5</update_guid>
+        <update_guid_history>bc52ec758f3912109c02129f4447d5d5:-1978121377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:29:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>06163e646b9d45ddb9993989c7c61131</sys_id>
+        <sys_metadata>7052ec75c339121044643eec050131d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_7052ec75c339121044643eec050131d4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_7052ec75c339121044643eec050131d4">b852ec75c339121044643eec050131d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:29:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

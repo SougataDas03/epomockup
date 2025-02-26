@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record page 3 column layout">7848b43ac342d21044643eec05013181</macroponent>
+        <name>Multitask Selector - On Tasks Search Returned</name>
+        <preset/>
+        <required_translations>[
+    {
+        "message": "There was a problem generating this article with Now Assist (timed out). You can write it yourself now if you'd like."
+    },
+    {
+        "message": "Continue without more tasks"
+    },
+    {
+        "message": "Continue with selected tasks"
+    },
+    {
+        "message": "Continue with selected tasks"
+    }
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.name === "DATA_FETCH_SUCCEEDED") {
+        var answer = api.data.tasks_search_1.output;
+        if (answer.success) {
+            var tableData = [];
+            if (answer.content.order.length > 0) {
+                helpers.modal.close("modal_gen_ai");
+
+                for (var item of answer.content.order) {
+                    var itemData = answer.content.data[item];
+                    tableData.push({
+                        "key": item,
+                        "type": "default",
+                        "isSelected": false,
+                        "cells": {
+                            "number": {
+                                "value": itemData['number'],
+                                "label": itemData['number']
+                            },
+                            "short_description": {
+                                "value": itemData['short_description'],
+                                "label": null
+                            },
+                            "description": {
+                                "value": itemData['description'],
+                                "label": null
+                            },
+                            "close_notes": {
+                                "value": itemData['close_notes'],
+                                "label": null
+                            }
+                        }
+                    }, );
+                }
+                api.setState('searchResult', {
+                    rows: tableData
+                });
+                helpers.modal.open("modal_multitask_selector");
+            } else {
+                if (api.state.genAiSourceRecordId != null && api.state.genAiSourceRecordId.trim().length > 0) {
+                    if(api.state.canShowLanguagePicker){
+                        helpers.modal.close('modal_gen_ai');
+                        helpers.modal.open('knowledge_base_and_language_modal');
+                        return;
+                    }
+                    console.log('Debug', 'No relevant tasks found');
+                    api.setState('isGenAiGenerating', true);
+
+                    const timeoutMessage = await helpers.translate("There was a problem generating this article with Now Assist (timed out). You can write it yourself now if you'd like.");
+
+                    const genAiTimeoutId = helpers.timing.setTimeout(function() {
+                        api.setState('isGenAiTimedOut', true);
+                        api.setState('isGenAiGenerating', false);
+                        api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+                            items: [{
+                                id: "na_drafting"
+                            }]
+                        });
+                        helpers.modal.close("modal_gen_ai");
+                        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                            items: [{
+                                id: "na_error",
+                                status: "critical",
+                                icon: "ai-sparkle-fill",
+                                content: timeoutMessage,
+                                action: {
+                                    type: "dismiss"
+                                }
+                            }]
+                        });
+                    }, api.state.genAiTimeout);
+
+                    api.setState('genAiTimeoutId', genAiTimeoutId);
+                } else {
+                    api.setState('searchResult', {
+                        rows: tableData
+                    });
+                }
+            }
+            var selectedRows = api.state.selectedTasks;
+            var resultRows = tableData;
+            var filteredSelectedRows = {};
+            for (var resultRow of resultRows) {
+                if (selectedRows[resultRow.key])
+                    filteredSelectedRows[resultRow.key] = selectedRows[resultRow.key];
+            }
+            api.setState('filteredSelectedTasks', filteredSelectedRows);
+            var n = Object.keys(filteredSelectedRows).length;
+            if (n == 0) {
+                if (api.state.genAiSourceRecordId != null && api.state.genAiSourceRecordId.trim().length > 0) {
+                    api.setState('multitaskOKButtonIsDisabled', false);
+                    api.setState('multitaskOKButtonLabel', await helpers.translate("Continue without more tasks"));
+                } else {
+                    api.setState('multitaskOKButtonIsDisabled', true);
+                    api.setState('multitaskOKButtonLabel', await helpers.translate('Continue with selected tasks'));
+                }
+            } else {
+                api.setState('multitaskOKButtonLabel', await helpers.translate('Continue with selected tasks'));
+                if (n > 5) {
+                    api.setState('multitaskOKButtonIsDisabled', true);
+                } else {
+                    api.setState('multitaskOKButtonIsDisabled', false);
+                }
+            }
+        } else {
+            // Encountering error with search:
+            // ? Stop the process and surface the error
+            // ? Options to ignore and proceed with NowLLM
+            if (answer.error) {
+                console.log('Debug', 'Search error encountered', answer, event);
+            }
+        }
+    } else {
+        console.log('Debug', 'Search request failed', event);
+    }
+    api.setState('isSearchLoading', false);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 03:53:34</sys_created_on>
+        <sys_id>65487c3ac342d21044643eec050131cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Multitask Selector - On Tasks Search Returned</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_client_script_65487c3ac342d21044643eec050131cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 03:53:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_client_script_65487c3ac342d21044643eec050131cf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Record page 3 column layout"&gt;7848b43ac342d21044643eec05013181&lt;/macroponent&gt;&lt;name&gt;Multitask Selector - On Tasks Search Returned&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    {
+        "message": "There was a problem generating this article with Now Assist (timed out). You can write it yourself now if you'd like."
+    },
+    {
+        "message": "Continue without more tasks"
+    },
+    {
+        "message": "Continue with selected tasks"
+    },
+    {
+        "message": "Continue with selected tasks"
+    }
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.name === "DATA_FETCH_SUCCEEDED") {
+        var answer = api.data.tasks_search_1.output;
+        if (answer.success) {
+            var tableData = [];
+            if (answer.content.order.length &gt; 0) {
+                helpers.modal.close("modal_gen_ai");
+
+                for (var item of answer.content.order) {
+                    var itemData = answer.content.data[item];
+                    tableData.push({
+                        "key": item,
+                        "type": "default",
+                        "isSelected": false,
+                        "cells": {
+                            "number": {
+                                "value": itemData['number'],
+                                "label": itemData['number']
+                            },
+                            "short_description": {
+                                "value": itemData['short_description'],
+                                "label": null
+                            },
+                            "description": {
+                                "value": itemData['description'],
+                                "label": null
+                            },
+                            "close_notes": {
+                                "value": itemData['close_notes'],
+                                "label": null
+                            }
+                        }
+                    }, );
+                }
+                api.setState('searchResult', {
+                    rows: tableData
+                });
+                helpers.modal.open("modal_multitask_selector");
+            } else {
+                if (api.state.genAiSourceRecordId != null &amp;&amp; api.state.genAiSourceRecordId.trim().length &gt; 0) {
+                    if(api.state.canShowLanguagePicker){
+                        helpers.modal.close('modal_gen_ai');
+                        helpers.modal.open('knowledge_base_and_language_modal');
+                        return;
+                    }
+                    console.log('Debug', 'No relevant tasks found');
+                    api.setState('isGenAiGenerating', true);
+
+                    const timeoutMessage = await helpers.translate("There was a problem generating this article with Now Assist (timed out). You can write it yourself now if you'd like.");
+
+                    const genAiTimeoutId = helpers.timing.setTimeout(function() {
+                        api.setState('isGenAiTimedOut', true);
+                        api.setState('isGenAiGenerating', false);
+                        api.emit("NOW_UXF_PAGE#REMOVE_NOTIFICATIONS", {
+                            items: [{
+                                id: "na_drafting"
+                            }]
+                        });
+                        helpers.modal.close("modal_gen_ai");
+                        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                            items: [{
+                                id: "na_error",
+                                status: "critical",
+                                icon: "ai-sparkle-fill",
+                                content: timeoutMessage,
+                                action: {
+                                    type: "dismiss"
+                                }
+                            }]
+                        });
+                    }, api.state.genAiTimeout);
+
+                    api.setState('genAiTimeoutId', genAiTimeoutId);
+                } else {
+                    api.setState('searchResult', {
+                        rows: tableData
+                    });
+                }
+            }
+            var selectedRows = api.state.selectedTasks;
+            var resultRows = tableData;
+            var filteredSelectedRows = {};
+            for (var resultRow of resultRows) {
+                if (selectedRows[resultRow.key])
+                    filteredSelectedRows[resultRow.key] = selectedRows[resultRow.key];
+            }
+            api.setState('filteredSelectedTasks', filteredSelectedRows);
+            var n = Object.keys(filteredSelectedRows).length;
+            if (n == 0) {
+                if (api.state.genAiSourceRecordId != null &amp;&amp; api.state.genAiSourceRecordId.trim().length &gt; 0) {
+                    api.setState('multitaskOKButtonIsDisabled', false);
+                    api.setState('multitaskOKButtonLabel', await helpers.translate("Continue without more tasks"));
+                } else {
+                    api.setState('multitaskOKButtonIsDisabled', true);
+                    api.setState('multitaskOKButtonLabel', await helpers.translate('Continue with selected tasks'));
+                }
+            } else {
+                api.setState('multitaskOKButtonLabel', await helpers.translate('Continue with selected tasks'));
+                if (n &gt; 5) {
+                    api.setState('multitaskOKButtonIsDisabled', true);
+                } else {
+                    api.setState('multitaskOKButtonIsDisabled', false);
+                }
+            }
+        } else {
+            // Encountering error with search:
+            // ? Stop the process and surface the error
+            // ? Options to ignore and proceed with NowLLM
+            if (answer.error) {
+                console.log('Debug', 'Search error encountered', answer, event);
+            }
+        }
+    } else {
+        console.log('Debug', 'Search request failed', event);
+    }
+    api.setState('isSearchLoading', false);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-27 03:53:34&lt;/sys_created_on&gt;&lt;sys_id&gt;65487c3ac342d21044643eec050131cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Multitask Selector - On Tasks Search Returned&lt;/sys_name&gt;&lt;sys_package display_value="ePOs" source="x_1097202_epos"&gt;cee28b2783e01210aaa27e95eeaad3ff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ePOs"&gt;cee28b2783e01210aaa27e95eeaad3ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_65487c3ac342d21044643eec050131cf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-27 03:53:34&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1572084470</payload_hash>
+        <record_name>Multitask Selector - On Tasks Search Returned</record_name>
+        <reverted_from/>
+        <source>03165475c3f5121044643eec050131f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 03:53:34</sys_created_on>
+        <sys_id>a5487c3ac342d21044643eec050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1936bc0beaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 03:53:34</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>a9487c3ab242d210fdbaad421eab1add</update_guid>
+        <update_guid_history>a9487c3ab242d210fdbaad421eab1add:-1572084470</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 04:11:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>3fd6161fa68343fc980fb58d8cf3b164</sys_id>
+        <sys_metadata>65487c3ac342d21044643eec050131cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multitask Selector - On Tasks Search Returned</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_65487c3ac342d21044643eec050131cf</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_65487c3ac342d21044643eec050131cf">a5487c3ac342d21044643eec050131de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 04:11:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

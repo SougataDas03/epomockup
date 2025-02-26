@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>50c17a4cc3439210945e9e1d050131dd</image>
+        <name>upload_003-writing.png</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:43:49</sys_created_on>
+        <sys_id>18c17a4cc3439210945e9e1d050131d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>upload_003-writing.png</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>db_image_18c17a4cc3439210945e9e1d050131d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:43:50</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>003-writing.png</file_name>
+        <hash>61731a7699f1c769e6a547fdab6f69048efd6dc0c4efbb03f2721a0db62ef569</hash>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>730</size_bytes>
+        <size_compressed>753</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:43:49</sys_created_on>
+        <sys_id>50c17a4cc3439210945e9e1d050131dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:43:49</sys_updated_on>
+        <table_name>db_image</table_name>
+        <table_sys_id>18c17a4cc3439210945e9e1d050131d6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="003-writing.png" sys_id="50c17a4cc3439210945e9e1d050131dd">50c17a4cc3439210945e9e1d050131dd</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:43:49</sys_created_on>
+        <sys_id>90c17a4cc3439210945e9e1d050131dd</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AdoCJf2JUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAJcEhZcwAAAOwAAADsAXkocb0AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAACZ0lEQVRYhe2Xu2tUQRTGvyNRiQiujUQQtZJIbHxEKwtFDWhj4aNQbHxWNoKJ+g8ENAT8A0RQBBHLBHyArIpgcCvfWqgQjBh0RSyi7uZncSfk5Lr37t29KxZ6mmHOnPN938ycO3dGcgbMA84AL4Af5LNvQBHYqSwGFIBSTtIkO5vEa07AZUn7QvexpFuSfmZSX9sKkvZIWhj6u8zsetLsFwPVoHYIaMtB7HGXAp8C7v20wB1uuTa1gtxhnw+4E4DFx2eFdr7zfWilAEljoZ0raU6SgL9miXsdluuApI4mcO+Z2YNcAiRtkXSxCXJJ+goUzIx6gWlb8FzSuybIkXQzC7mUsgJmNippeRMCGrJ/ogirU5CSJjMLUOuKcEjSIUlFM/vtaE8TMFWEyxokn1GEZvZU0oqk4P9F2IoivG1mpRSc3ZJOSOqS9EZRXQ3OOCeAve5vuDL4tma8bIymkJ9MyBmIB9YSsAR4W4e8ClzIQD4ODACvQr8CLEoVkMeA3pjQEtGVb6PzbZP+QBECfZL6Q7cS2jWKrng9LvSjT2rJCgB9DmcMWAVcrbF1r/HXvlYIAE7FyDuDvw146MbKwOp4ci4BSeRh7Agw6ci7awE0LQDY4HLfx8iPxsjXJYHkEXAu5FV8LnDMkX9OJA/B252AzQ0KeBnyis53mOl3RhlYXw+kwyUMA7Mzknc64YPAQeBabOZr0zD80+ySpP2h+0TRf7wcix8xszsup1fT33zcvkjqMbORLJMRsAB4RLpNAO0uZ7hGzDhwBejKRBwT0Q6cBp4B32uA38A9r4DjRG+/u0TP+m6godP1F2O3EqoOfDjSAAAAAElFTkSuQmCCNi0ZdNoCAAA=</data>
+        <length>992</length>
+        <position>1</position>
+        <sys_attachment display_value="003-writing.png" sys_id="50c17a4cc3439210945e9e1d050131dd">50c17a4cc3439210945e9e1d050131dd</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:43:49</sys_created_on>
+        <sys_id>14c17a4cc3439210945e9e1d050131dd</sys_id>
+    </sys_attachment_doc>
+</record_update>

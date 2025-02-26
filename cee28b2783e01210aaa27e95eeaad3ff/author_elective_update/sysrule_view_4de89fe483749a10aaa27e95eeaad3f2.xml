@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Default view epo</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 12:31:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4de89fe483749a10aaa27e95eeaad3f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Default view epo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sysrule_view_4de89fe483749a10aaa27e95eeaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 12:37:13</sys_updated_on>
+        <table>x_1097202_epos_epo</table>
+        <view>Default view Copy</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>48c516271bbc4698a43dcb7b234bcb30</instance_id>
+        <instance_name>dev242488</instance_name>
+        <name>sysrule_view_4de89fe483749a10aaa27e95eeaad3f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Default view epo&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-19 12:31:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4de89fe483749a10aaa27e95eeaad3f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Default view epo&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ePOs" source="x_1097202_epos"&gt;cee28b2783e01210aaa27e95eeaad3ff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ePOs"&gt;cee28b2783e01210aaa27e95eeaad3ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_4de89fe483749a10aaa27e95eeaad3f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-19 12:37:13&lt;/sys_updated_on&gt;&lt;table&gt;x_1097202_epos_epo&lt;/table&gt;&lt;view&gt;Default view Copy&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1758128686</payload_hash>
+        <record_name>Default view epo</record_name>
+        <reverted_from/>
+        <source>42af191a83b0d210aaa27e95eeaad3bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 12:37:13</sys_created_on>
+        <sys_id>5f6a5f6883749a10aaa27e95eeaad34b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>1920a495d710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-24 14:10:11</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>d36a5f6837749a1096279efe26d22b4b</update_guid>
+        <update_guid_history>d36a5f6837749a1096279efe26d22b4b:-1758128686,1bf9572845749a10136d6d1b92da082b:-1783901237,d72993242b749a109f688bc8f652f5d4:-1758128686,db09932811749a106766ad811df97e1a:796363680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-19 12:39:25</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>a811706d7a704100b9f3f49b47690000</sys_id>
+        <sys_metadata>4de89fe483749a10aaa27e95eeaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default view epo</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent display_value="ePO">00e783a383641210aaa27e95eeaad368</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sysrule_view_4de89fe483749a10aaa27e95eeaad3f2</sys_update_name>
+        <sys_update_version display_value="sysrule_view_4de89fe483749a10aaa27e95eeaad3f2">5f6a5f6883749a10aaa27e95eeaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-19 12:39:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

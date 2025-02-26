@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_menu_actions</name>
+        <page display_value="">6ce2acb5be391210b0fd9dc7e1b3c739</page>
+        <required_translations>[{"message":"Report issue","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:30:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>64e2acb53f391210a1fc4b07afcd2842</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_page_property_64e2acb53f391210a1fc4b07afcd2842</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:30:34</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1097202_epos.6ce2acb5be391210b0fd9dc7e1b3c739.root.chrome_menu_actions</unique_name>
+        <value>{&#13;
+    "label": {"translatable":true, "message":"Report issue"},&#13;
+    "value": {&#13;
+  		"route":"catalog",&#13;
+        "reload":true,&#13;
+       	"fields":{&#13;
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"&#13;
+		}&#13;
+	}&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_page_property_64e2acb53f391210a1fc4b07afcd2842</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_menu_actions</name><page display_value="">6ce2acb5be391210b0fd9dc7e1b3c739</page><required_translations>[{"message":"Report issue","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-11 13:30:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>64e2acb53f391210a1fc4b07afcd2842</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_menu_actions</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ux_page_property_64e2acb53f391210a1fc4b07afcd2842</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-11 13:30:34</sys_updated_on><type>json</type><unique_name>x_1097202_epos.6ce2acb5be391210b0fd9dc7e1b3c739.root.chrome_menu_actions</unique_name><value>{&#13;
+    "label": {"translatable":true, "message":"Report issue"},&#13;
+    "value": {&#13;
+  		"route":"catalog",&#13;
+        "reload":true,&#13;
+       	"fields":{&#13;
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"&#13;
+		}&#13;
+	}&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1233529876</payload_hash>
+        <record_name>chrome_menu_actions</record_name>
+        <reverted_from/>
+        <source>e15cb511c331121044643eec050131a8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 06:44:21</sys_created_on>
+        <sys_id>bf846079c339121044643eec050131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19314d0fd880000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 07:17:06</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>7f846079d739121061f8e6dab41e54d2</update_guid>
+        <update_guid_history>7f846079d739121061f8e6dab41e54d2:-1233529876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:37:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>125d2bc5ca28471d82cfe2f7cf6bfed9</sys_id>
+        <sys_metadata>64e2acb53f391210a1fc4b07afcd2842</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_64e2acb53f391210a1fc4b07afcd2842</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_64e2acb53f391210a1fc4b07afcd2842">bf846079c339121044643eec050131d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:37:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

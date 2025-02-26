@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Landing Page">b87c54bdfcf5121015c17b3bb349237a</macroponent>
+        <name>Card click redirection for My requests</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    const {
+        setState,
+        emit
+    } = api;
+
+    const table = event.payload.table;
+    const sysId = event.payload.sysId;
+    const route = "record_request";
+
+    if (table === "sc_req_item") {
+        emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table,
+                sysId
+            }
+        });
+    } else if(table == "incident"){
+        emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table: "incident",
+                sysId
+            }
+        });
+    }
+    else{
+        emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table: "task",
+                sysId
+            }
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:02:27</sys_created_on>
+        <sys_id>f07c54bd7df51210e6ab0aa505b9116f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Card click redirection for My requests</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_client_script_f07c54bd7df51210e6ab0aa505b9116f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:02:27</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

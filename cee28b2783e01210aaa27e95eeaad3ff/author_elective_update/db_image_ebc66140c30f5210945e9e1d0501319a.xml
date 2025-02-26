@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>bbc66140c30f5210945e9e1d0501318e</image>
+        <name>upload_increase.png</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 11:16:22</sys_created_on>
+        <sys_id>ebc66140c30f5210945e9e1d0501319a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>upload_increase.png</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>db_image_ebc66140c30f5210945e9e1d0501319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 11:16:24</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="DELETE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>increase.png</file_name>
+        <hash>242e104b904b38b30a8974ed8a65868cd392230c3fd8cd29a46a78beebf838c5</hash>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>689</size_bytes>
+        <size_compressed>712</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 11:16:23</sys_created_on>
+        <sys_id>bbc66140c30f5210945e9e1d0501318e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 11:16:23</sys_updated_on>
+        <table_name>db_image</table_name>
+        <table_sys_id>ebc66140c30f5210945e9e1d0501319a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="DELETE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="increase.png" sys_id="bbc66140c30f5210945e9e1d0501318e">bbc66140c30f5210945e9e1d0501318e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 11:16:23</sys_created_on>
+        <sys_id>fbc66140c30f5210945e9e1d0501318e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="DELETE">
+        <data>AbECTv2JUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAACPklEQVRYhcWWzUuUURSHn2tGBRUoFBhkEgWDFBVBBAoRTISFmwgM1D9AiaI27gyjbbURq20QLWpTqxYuoiSICIQgIio0+6A0TFoktHhazBXGcXTGae70g4Fzzr13zjNnzn3fAwmk9rpUMylylQNzWv2u+j+Sn1c/qwdrCqDWq8Pqa7UlxmoDoG5Tn6ijamNePD2A2qF+Ua+oawrWulMm3qjeUj+px5MlKpI4qF3qpHpHbSiy50eS66geVp+qr9TsCvtcyV9t0qCeVB+rH9V+tb7EmX8DUOvUdvWq+kEdj0+6tXl7li1zKYCi9OpFIAPsAg4AE8AD4FQIYbzIkcYQQqjkVy5XvnngJXAPGA8hTJf7hclUaZmr1oSVJllVD6h9wOa80FwI4WZFxGWqrsAfARryPjdSJl+iFGUu9RcUVqDmKgT4U8JPDrCvwN9fMwB1B9CvvlXn1SngnHGiAWaTAahHgRfANNBB7ipmo/9cPQY0pQBYGKGm1fboZ9X3amf029WvanPBuarcAswNj4PRPhFfs6pv1K4Yv6yOpAJ4p+6M9gX1bgTYq+6J8Yw6kQrgl7ou2lvMTbSqY+rWGN+g/k4BUAfMAC3RbwLORnsK6In2dmCSBKoHHgLdwCDQClyKa23A7Wj3AI/UVqBz4bA6UMxexdpciN39DDgTQhiL3X8N6AshjKptwH3gELAJ6AUC1dHAAlFWnYrdnlHXq7vVIfWbeqRKCRdpUT+ozep1c4Pnz/hEHFabYhPOWn3N/AVQhR9IBy6SSAAAAABJRU5ErkJggj84HTaxAgAA</data>
+        <length>936</length>
+        <position>1</position>
+        <sys_attachment display_value="increase.png" sys_id="bbc66140c30f5210945e9e1d0501318e">bbc66140c30f5210945e9e1d0501318e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 11:16:23</sys_created_on>
+        <sys_id>7fc66140c30f5210945e9e1d0501318e</sys_id>
+    </sys_attachment_doc>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>db_image_ebc66140c30f5210945e9e1d0501319a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format/><height/><image>bbc66140c30f5210945e9e1d0501318e</image><name>upload_increase.png</name><size_bytes/><sys_class_name>db_image</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 11:16:22</sys_created_on><sys_id>ebc66140c30f5210945e9e1d0501319a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>upload_increase.png</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>db_image_ebc66140c30f5210945e9e1d0501319a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-07 11:16:24</sys_updated_on><thumbnail/><width/></db_image><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/png</content_type><file_name>increase.png</file_name><hash>242e104b904b38b30a8974ed8a65868cd392230c3fd8cd29a46a78beebf838c5</hash><image_height>32</image_height><image_width>32</image_width><size_bytes>689</size_bytes><size_compressed>712</size_compressed><state>available</state><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 11:16:23</sys_created_on><sys_id>bbc66140c30f5210945e9e1d0501318e</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-07 11:16:23</sys_updated_on><table_name>db_image</table_name><table_sys_id>ebc66140c30f5210945e9e1d0501319a</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAA/w==</data><length>16</length><position>0</position><sys_attachment display_value="increase.png" sys_id="bbc66140c30f5210945e9e1d0501318e">bbc66140c30f5210945e9e1d0501318e</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 11:16:23</sys_created_on><sys_id>fbc66140c30f5210945e9e1d0501318e</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>AbECTv2JUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAACPklEQVRYhcWWzUuUURSHn2tGBRUoFBhkEgWDFBVBBAoRTISFmwgM1D9AiaI27gyjbbURq20QLWpTqxYuoiSICIQgIio0+6A0TFoktHhazBXGcXTGae70g4Fzzr13zjNnzn3fAwmk9rpUMylylQNzWv2u+j+Sn1c/qwdrCqDWq8Pqa7UlxmoDoG5Tn6ijamNePD2A2qF+Ua+oawrWulMm3qjeUj+px5MlKpI4qF3qpHpHbSiy50eS66geVp+qr9TsCvtcyV9t0qCeVB+rH9V+tb7EmX8DUOvUdvWq+kEdj0+6tXl7li1zKYCi9OpFIAPsAg4AE8AD4FQIYbzIkcYQQqjkVy5XvnngJXAPGA8hTJf7hclUaZmr1oSVJllVD6h9wOa80FwI4WZFxGWqrsAfARryPjdSJl+iFGUu9RcUVqDmKgT4U8JPDrCvwN9fMwB1B9CvvlXn1SngnHGiAWaTAahHgRfANNBB7ipmo/9cPQY0pQBYGKGm1fboZ9X3amf029WvanPBuarcAswNj4PRPhFfs6pv1K4Yv6yOpAJ4p+6M9gX1bgTYq+6J8Yw6kQrgl7ou2lvMTbSqY+rWGN+g/k4BUAfMAC3RbwLORnsK6In2dmCSBKoHHgLdwCDQClyKa23A7Wj3AI/UVqBz4bA6UMxexdpciN39DDgTQhiL3X8N6AshjKptwH3gELAJ6AUC1dHAAlFWnYrdnlHXq7vVIfWbeqRKCRdpUT+ozep1c4Pnz/hEHFabYhPOWn3N/AVQhR9IBy6SSAAAAABJRU5ErkJggj84HTaxAgAA</data><length>936</length><position>1</position><sys_attachment display_value="increase.png" sys_id="bbc66140c30f5210945e9e1d0501318e">bbc66140c30f5210945e9e1d0501318e</sys_attachment><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 11:16:23</sys_created_on><sys_id>7fc66140c30f5210945e9e1d0501318e</sys_id></sys_attachment_doc></record_update>]]></payload>
+        <payload_hash>0</payload_hash>
+        <record_name>upload_increase.png</record_name>
+        <reverted_from/>
+        <source>9bc80948c30b5210945e9e1d05013112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 11:16:24</sys_created_on>
+        <sys_id>84d62940c30f5210945e9e1d0501319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194407ae7fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 11:16:24</sys_updated_on>
+        <type>Images</type>
+        <update_guid>0cd62940350f5210af315c83a1e5b19e</update_guid>
+        <update_guid_history>0cd62940350f5210af315c83a1e5b19e:1406064261,f7c66140820f5210930c673531e1a190:-579106416,63c66140eb0f52100b6c051fbc2d8d9c:1375251967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="upload_increase.png">80bb1a58c307d210945e9e1d05013196</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-08 09:45:54</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>a1c76280abdb41b4bfee4add70f77910</sys_id>
+        <sys_metadata>ebc66140c30f5210945e9e1d0501319a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>upload_increase.png</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>db_image_ebc66140c30f5210945e9e1d0501319a</sys_update_name>
+        <sys_update_version display_value="db_image_ebc66140c30f5210945e9e1d0501319a">84d62940c30f5210945e9e1d0501319f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-08 09:45:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

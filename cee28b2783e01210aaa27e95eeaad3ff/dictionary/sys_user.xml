@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,kagami_csindex_enabled=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="8ab00d338d020210d0ad51af41866360" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Applicant as" max_length="32" name="x_1097202_epos_applicant_as" reference="sys_user_group" type="reference"/>
+        <element default="PSV" label="Division Name" max_length="40" name="x_1097202_epos_division_name" type="string"/>
+        <element default="79505M30" label="Profit Center ID" max_length="40" name="x_1097202_epos_profit_center_id" type="string"/>
+        <element default="PSV Battery" label="Profit Center Name" max_length="40" name="x_1097202_epos_profit_center_name" type="string"/>
+        <index name="index">
+            <element name="x_1097202_epos_applicant_as"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_approver_1" label="Approver1" language="en" table="var__m_sys_decision_multi_result_element_779dbbacc3035610945e9e1d05013188">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_approver_1</element>
+            <help/>
+            <hint/>
+            <label>Approver1</label>
+            <language>en</language>
+            <name>var__m_sys_decision_multi_result_element_779dbbacc3035610945e9e1d05013188</name>
+            <plural>Approver1</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-09 11:40:03</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Approver1</sys_name>
+            <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_multi_result_element_779dbbacc3035610945e9e1d05013188_u_approver_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-09 11:40:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

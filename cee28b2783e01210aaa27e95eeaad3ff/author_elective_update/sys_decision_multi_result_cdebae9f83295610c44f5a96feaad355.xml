@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="PIDSAP ePO Approval Matrix delta">c98bead783295610c44f5a96feaad3c7</decision_table>
+        <label>Approval 1: eWork Admin, Approval 2: Business Operation Manager, Approval 3: Business Operation GM</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdebae9f83295610c44f5a96feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval 1: eWork Admin, Approval 2: Business Operation Manager, Approval 3: Business Operation GM</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_decision_multi_result_cdebae9f83295610c44f5a96feaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:16</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=cdebae9f83295610c44f5a96feaad355"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>cdebae9f83295610c44f5a96feaad355</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:16</sys_created_on>
+        <sys_id>05ebae9f83295610c44f5a96feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:16</sys_updated_on>
+        <value>0f4b629783295610c44f5a96feaad31b</value>
+        <variable display_value="Approval 3">fd8b6e9b83295610c44f5a96feaad3a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>cdebae9f83295610c44f5a96feaad355</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:16</sys_created_on>
+        <sys_id>41ebae9f83295610c44f5a96feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:16</sys_updated_on>
+        <value/>
+        <variable display_value="Approval 4">758bae9b83295610c44f5a96feaad302</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>cdebae9f83295610c44f5a96feaad355</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:16</sys_created_on>
+        <sys_id>89ebae9f83295610c44f5a96feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:16</sys_updated_on>
+        <value>36caaad383295610c44f5a96feaad30b</value>
+        <variable display_value="Approval 1">318b6e9b83295610c44f5a96feaad325</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>cdebae9f83295610c44f5a96feaad355</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:16</sys_created_on>
+        <sys_id>c5ebae9f83295610c44f5a96feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:16</sys_updated_on>
+        <value>b82bae1783295610c44f5a96feaad36f</value>
+        <variable display_value="Approval 2">fd8b6e9b83295610c44f5a96feaad362</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>787b02951ba6fd98c84543f4bd4bcb8e</instance_id>
+        <instance_name>dev212704</instance_name>
+        <name>sys_decision_multi_result_cdebae9f83295610c44f5a96feaad355</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="PIDSAP ePO Approval Matrix delta">c98bead783295610c44f5a96feaad3c7</decision_table><label>Approval 1: eWork Admin, Approval 2: Business Operation Manager, Approval 3: Business Operation GM</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-04 05:04:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cdebae9f83295610c44f5a96feaad355</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approval 1: eWork Admin, Approval 2: Business Operation Manager, Approval 3: Business Operation GM</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_decision_multi_result_cdebae9f83295610c44f5a96feaad355</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-04 05:04:16</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=cdebae9f83295610c44f5a96feaad355"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>cdebae9f83295610c44f5a96feaad355</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-04 05:04:16</sys_created_on><sys_id>05ebae9f83295610c44f5a96feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-04 05:04:16</sys_updated_on><value>0f4b629783295610c44f5a96feaad31b</value><variable display_value="Approval 3">fd8b6e9b83295610c44f5a96feaad3a0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>cdebae9f83295610c44f5a96feaad355</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-04 05:04:16</sys_created_on><sys_id>41ebae9f83295610c44f5a96feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-04 05:04:16</sys_updated_on><value/><variable display_value="Approval 4">758bae9b83295610c44f5a96feaad302</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>cdebae9f83295610c44f5a96feaad355</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-04 05:04:16</sys_created_on><sys_id>89ebae9f83295610c44f5a96feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-04 05:04:16</sys_updated_on><value>36caaad383295610c44f5a96feaad30b</value><variable display_value="Approval 1">318b6e9b83295610c44f5a96feaad325</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>cdebae9f83295610c44f5a96feaad355</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-04 05:04:16</sys_created_on><sys_id>c5ebae9f83295610c44f5a96feaad357</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-04 05:04:16</sys_updated_on><value>b82bae1783295610c44f5a96feaad36f</value><variable display_value="Approval 2">fd8b6e9b83295610c44f5a96feaad362</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1451161260</payload_hash>
+        <record_name>Approval 1: eWork Admin, Approval 2: Business Operation Manager, Approval 3: Business Operation GM</record_name>
+        <reverted_from/>
+        <source>e4d53a2183551210c44f5a96feaad3e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:16</sys_created_on>
+        <sys_id>49ebae9f83295610c44f5a96feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192f58f35f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:16</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>4debae9f9d2956100bc15a1e3a254658</update_guid>
+        <update_guid_history>4debae9f9d2956100bc15a1e3a254658:1451161260</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 05:04:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>13a6716631cf43c085dc6e4e005a5b10</sys_id>
+        <sys_metadata>cdebae9f83295610c44f5a96feaad355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval 1: eWork Admin, Approval 2: Business Operation Manager, Approval 3: Business Operation GM</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_cdebae9f83295610c44f5a96feaad355</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_cdebae9f83295610c44f5a96feaad355">49ebae9f83295610c44f5a96feaad359</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

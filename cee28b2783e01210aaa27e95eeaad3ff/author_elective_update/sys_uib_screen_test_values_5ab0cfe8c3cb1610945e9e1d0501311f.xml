@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{}</macroponent_config>
+        <screen display_value="Portal">dab0cfe8c3cb1610945e9e1d0501311a</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 07:06:11</sys_created_on>
+        <sys_id>5ab0cfe8c3cb1610945e9e1d0501311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_5ab0cfe8c3cb1610945e9e1d0501311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 07:06:11</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_uib_screen_test_values_5ab0cfe8c3cb1610945e9e1d0501311f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{}</macroponent_config><screen display_value="Portal">dab0cfe8c3cb1610945e9e1d0501311a</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-09 07:06:11</sys_created_on><sys_id>5ab0cfe8c3cb1610945e9e1d0501311f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_uib_screen_test_values_5ab0cfe8c3cb1610945e9e1d0501311f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-09 07:06:11</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>645029582</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9bc80948c30b5210945e9e1d05013112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 07:06:11</sys_created_on>
+        <sys_id>16b0cfe8c3cb1610945e9e1d05013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19449e28c820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 07:06:11</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>92b0cfe8a5cb1610a824980b48a18521</update_guid>
+        <update_guid_history>92b0cfe8a5cb1610a824980b48a18521:645029582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 07:07:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>5cfc65fb83024fa09d24419126310400</sys_id>
+        <sys_metadata>5ab0cfe8c3cb1610945e9e1d0501311f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_5ab0cfe8c3cb1610945e9e1d0501311f</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_5ab0cfe8c3cb1610945e9e1d0501311f">16b0cfe8c3cb1610945e9e1d05013147</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 07:07:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

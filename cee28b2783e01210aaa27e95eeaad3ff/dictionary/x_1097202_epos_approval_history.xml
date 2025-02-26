@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c81e49c8c34b5210945e9e1d0501310d" label="Approval History" max_length="40" name="x_1097202_epos_approval_history" type="collection">
+        <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" type="reference"/>
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Comment" max_length="40" name="comment" type="string"/>
+        <element label="Decision Date &amp; Time" max_length="255" name="decision_date_time" type="calendar_date_time"/>
+        <element choice="1" label="Decision Taken" max_length="40" name="decision_taken" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="RFI" sequence="2" value="RFI"/>
+                <element inactive_on_update="false" label="RFI Response" sequence="3" value="RFI Response"/>
+            </choice>
+        </element>
+        <element label="Level" max_length="40" name="level" type="integer"/>
+        <element label="Level integer" max_length="255" name="level_integer" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_1040502_eso_mo_0_eso_approval" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="approval_group"/>
+        </index>
+        <index name="index2">
+            <element name="approver"/>
+        </index>
+        <index name="index3">
+            <element name="parent"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

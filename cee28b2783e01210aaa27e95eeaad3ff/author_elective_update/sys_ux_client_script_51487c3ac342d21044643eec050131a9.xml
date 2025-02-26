@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Record page 3 column layout">7848b43ac342d21044643eec05013181</macroponent>
+        <name>On Embedded Queries Fetched</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.name === "DATA_FETCH_SUCCEEDED") {
+        var output = api.data.km_record_page_fetch_embedded_queries_1.output;
+        if (output.success) {
+            var content = output.content;
+            if (content) {
+                var query = api.context.props.query;
+                for (var fieldName in content) {
+                    var queryKey = '^' + fieldName + '=';
+                    if (query && query.indexOf(queryKey) > -1)
+                        continue;
+                    api.emit("KB_VIEW#SET_FIELD", {
+                        fieldName: fieldName,
+                        value: content[fieldName]
+                    });
+                }
+            }
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 03:53:33</sys_created_on>
+        <sys_id>51487c3ac342d21044643eec050131a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>On Embedded Queries Fetched</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_client_script_51487c3ac342d21044643eec050131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 03:53:33</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_client_script_51487c3ac342d21044643eec050131a9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Record page 3 column layout"&gt;7848b43ac342d21044643eec05013181&lt;/macroponent&gt;&lt;name&gt;On Embedded Queries Fetched&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.name === "DATA_FETCH_SUCCEEDED") {
+        var output = api.data.km_record_page_fetch_embedded_queries_1.output;
+        if (output.success) {
+            var content = output.content;
+            if (content) {
+                var query = api.context.props.query;
+                for (var fieldName in content) {
+                    var queryKey = '^' + fieldName + '=';
+                    if (query &amp;&amp; query.indexOf(queryKey) &gt; -1)
+                        continue;
+                    api.emit("KB_VIEW#SET_FIELD", {
+                        fieldName: fieldName,
+                        value: content[fieldName]
+                    });
+                }
+            }
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-27 03:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;51487c3ac342d21044643eec050131a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;On Embedded Queries Fetched&lt;/sys_name&gt;&lt;sys_package display_value="ePOs" source="x_1097202_epos"&gt;cee28b2783e01210aaa27e95eeaad3ff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ePOs"&gt;cee28b2783e01210aaa27e95eeaad3ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_51487c3ac342d21044643eec050131a9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-27 03:53:33&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1426690949</payload_hash>
+        <record_name>On Embedded Queries Fetched</record_name>
+        <reverted_from/>
+        <source>03165475c3f5121044643eec050131f9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 03:53:33</sys_created_on>
+        <sys_id>69487c3ac342d21044643eec050131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1936bc0bcaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 03:53:33</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>6d487c3a6642d2105dbfe0c3e6d3a2aa</update_guid>
+        <update_guid_history>6d487c3a6642d2105dbfe0c3e6d3a2aa:-1426690949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 04:11:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2ce0f1e52bac405a894efaa2eea06d21</sys_id>
+        <sys_metadata>51487c3ac342d21044643eec050131a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On Embedded Queries Fetched</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_51487c3ac342d21044643eec050131a9</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_51487c3ac342d21044643eec050131a9">69487c3ac342d21044643eec050131ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 04:11:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

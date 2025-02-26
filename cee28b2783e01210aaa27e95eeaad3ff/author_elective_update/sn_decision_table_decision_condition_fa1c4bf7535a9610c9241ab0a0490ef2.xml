@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="po_type">5a1c87b7535a9610c9241ab0a0490e95</decision_input>
+        <decision_table display_value="PIDSAP ePO Approval Matrix delta">c21cc3f7535a9610c9241ab0a0490e53</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>PO Type</label>
+        <order>500</order>
+        <parent display_value="">7c29e95883b49210aaa27e95eeaad33a</parent>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 03:29:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fa1c4bf7535a9610c9241ab0a0490ef2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_fa1c4bf7535a9610c9241ab0a0490ef2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 03:29:05</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>64f9dae9db1e31dcf697684e139619be</instance_id>
+        <instance_name>dev203524</instance_name>
+        <name>sn_decision_table_decision_condition_fa1c4bf7535a9610c9241ab0a0490ef2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="po_type">5a1c87b7535a9610c9241ab0a0490e95</decision_input><decision_table display_value="PIDSAP ePO Approval Matrix delta">c21cc3f7535a9610c9241ab0a0490e53</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>PO Type</label><order>500</order><parent display_value="">7c29e95883b49210aaa27e95eeaad33a</parent><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 03:29:05</sys_created_on><sys_domain>global</sys_domain><sys_id>fa1c4bf7535a9610c9241ab0a0490ef2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sn_decision_table_decision_condition_fa1c4bf7535a9610c9241ab0a0490ef2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 03:29:05</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>102972746</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53807e8f5306d210c9241ab0a0490e8d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 03:29:05</sys_created_on>
+        <sys_id>fa1c4bf7535a9610c9241ab0a0490ef4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193be10167c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 03:29:05</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>fe1c4bf7455a96102b216a1e80d681f3</update_guid>
+        <update_guid_history>fe1c4bf7455a96102b216a1e80d681f3:102972746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">61d0d3bf535a9610c9241ab0a0490e86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 03:49:45</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>7c8b59c66e13454db3a25de92c569b11</sys_id>
+        <sys_metadata>fa1c4bf7535a9610c9241ab0a0490ef2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_fa1c4bf7535a9610c9241ab0a0490ef2</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_fa1c4bf7535a9610c9241ab0a0490ef2">fa1c4bf7535a9610c9241ab0a0490ef4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 03:49:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

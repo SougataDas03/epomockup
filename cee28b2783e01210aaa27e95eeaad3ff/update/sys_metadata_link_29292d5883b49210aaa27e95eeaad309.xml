@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e5292d5883b49210aaa27e95eeaad306</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>afa5799483b89210aaa27e95eeaad372</answer>
+        <condition table="var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be">u_is_total_po_amount_greater=true^u_sales_groupINAG1,AG2,AE1,AE3^u_strategic_goods=true^u_embargo_check_statusINYes,No^u_po_type=STK^u_applicant_level=5759e9d883b49210aaa27e95eeaad333^EQ<item endquery="false" field="u_is_total_po_amount_greater" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_sales_group" goto="false" newquery="false" operator="IN" or="false" value="AG1,AG2,AE1,AE3"/>
+            <item endquery="false" field="u_strategic_goods" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_embargo_check_status" goto="false" newquery="false" operator="IN" or="false" value="Yes,No"/>
+            <item endquery="false" field="u_po_type" goto="false" newquery="false" operator="=" or="false" value="STK"/>
+            <item endquery="false" field="u_applicant_level" goto="false" newquery="false" operator="=" or="false" value="5759e9d883b49210aaa27e95eeaad333"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="PIDSAP ePO Approval Matrix">a2842ddc83349210aaa27e95eeaad3be</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be</input_table>
+        <label>PIDSAP ePO Approval Matrix_100</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:43:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5292d5883b49210aaa27e95eeaad306</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PIDSAP ePO Approval Matrix_100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_decision_question_e5292d5883b49210aaa27e95eeaad306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:18</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:43:49</sys_created_on>
+        <sys_id>29292d5883b49210aaa27e95eeaad309</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>PIDSAP ePO Approval Matrix_100</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_metadata_link_29292d5883b49210aaa27e95eeaad309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 05:04:25</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

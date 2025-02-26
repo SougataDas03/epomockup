@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "table": "x_1097202_epos_epo",
+    "sysId": "f86abba8c3035610945e9e1d050131fa",
+    "query": null,
+    "extraParams": null,
+    "views": null,
+    "selectedTabIndex": null,
+    "029f04e053610110ac9bddeeff7b1294": {
+        "actionConfigId": "df28e3db0f1210107d20409dc4767ee0",
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "9c60930e859512108a7c81b65f8789c8",
+        "inputTable": "task",
+        "isMappedToAppShell": true,
+        "overrideAppContextConfigIds": false,
+        "ribbonConfigId": "ed358ca194a9d610598abd7c9142237a",
+        "screen": null,
+        "selectedTabIndex": null,
+        "shouldSuppressGlobalEvents": true,
+        "userPrefs": null,
+        "view": "workspace-epo-workspace-0"
+    },
+    "45a2efd50732111017b703767cd3008d": {
+        "ciSysIds": null,
+        "filteredArray": null,
+        "timestamp": null
+    },
+    "7cac5d4077343110c9d933c1fa5a99a6": {},
+    "approve": "true"
+}</macroponent_config>
+        <screen display_value="ePO Record Page">044580e183a9d610c44f5a96feaad37f</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 08:01:12</sys_created_on>
+        <sys_id>16da106183251a10c44f5a96feaad30f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_16da106183251a10c44f5a96feaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-10 07:34:48</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

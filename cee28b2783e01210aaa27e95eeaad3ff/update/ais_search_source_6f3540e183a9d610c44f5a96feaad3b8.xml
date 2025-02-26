@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_1097202_epos_currency_limit</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>Currency Limit</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 06:26:49</sys_created_on>
+        <sys_id>6f3540e183a9d610c44f5a96feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Currency Limit</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>ais_search_source_6f3540e183a9d610c44f5a96feaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 06:26:49</sys_updated_on>
+    </ais_search_source>
+</record_update>

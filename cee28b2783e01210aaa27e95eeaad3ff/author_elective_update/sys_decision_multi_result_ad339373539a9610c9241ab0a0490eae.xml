@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="PIDSAP ePO Approval Matrix delta">19929fff535a9610c9241ab0a0490e37</decision_table>
+        <label>Approval 3: Analytics Settings Managers, Approval 2: Mobile Analytics Settings Managers, Approval 1: Problem Solving</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:00:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad339373539a9610c9241ab0a0490eae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval 3: Analytics Settings Managers, Approval 2: Mobile Analytics Settings Managers, Approval 1: Problem Solving</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_decision_multi_result_ad339373539a9610c9241ab0a0490eae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:00:07</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=ad339373539a9610c9241ab0a0490eae"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>ad339373539a9610c9241ab0a0490eae</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:00:07</sys_created_on>
+        <sys_id>29339373539a9610c9241ab0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:00:07</sys_updated_on>
+        <value>205f1e0753333300c722ddeeff7b1235</value>
+        <variable display_value="Approval 2">ad929f33539a9610c9241ab0a0490ed7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>ad339373539a9610c9241ab0a0490eae</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:00:07</sys_created_on>
+        <sys_id>65339373539a9610c9241ab0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:00:07</sys_updated_on>
+        <value>019ad92ec7230010393d265c95c260dd</value>
+        <variable display_value="Approval 3">7d929f33539a9610c9241ab0a0490ef6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>ad339373539a9610c9241ab0a0490eae</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:00:07</sys_created_on>
+        <sys_id>a1339373539a9610c9241ab0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:00:07</sys_updated_on>
+        <value/>
+        <variable display_value="Approval 4">7992df33539a9610c9241ab0a0490e09</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>ad339373539a9610c9241ab0a0490eae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:00:07</sys_created_on>
+        <sys_id>e9339373539a9610c9241ab0a0490eaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:00:07</sys_updated_on>
+        <value>6fcd3b573b331300ad3cc9bb34efc447</value>
+        <variable display_value="Approval 1">2d929f33539a9610c9241ab0a0490eb7</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>64f9dae9db1e31dcf697684e139619be</instance_id>
+        <instance_name>dev203524</instance_name>
+        <name>sys_decision_multi_result_ad339373539a9610c9241ab0a0490eae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="PIDSAP ePO Approval Matrix delta">19929fff535a9610c9241ab0a0490e37</decision_table><label>Approval 3: Analytics Settings Managers, Approval 2: Mobile Analytics Settings Managers, Approval 1: Problem Solving</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 04:00:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad339373539a9610c9241ab0a0490eae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approval 3: Analytics Settings Managers, Approval 2: Mobile Analytics Settings Managers, Approval 1: Problem Solving</sys_name><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_decision_multi_result_ad339373539a9610c9241ab0a0490eae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 04:00:07</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=ad339373539a9610c9241ab0a0490eae"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>ad339373539a9610c9241ab0a0490eae</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 04:00:07</sys_created_on><sys_id>29339373539a9610c9241ab0a0490eaf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 04:00:07</sys_updated_on><value>205f1e0753333300c722ddeeff7b1235</value><variable display_value="Approval 2">ad929f33539a9610c9241ab0a0490ed7</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>ad339373539a9610c9241ab0a0490eae</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 04:00:07</sys_created_on><sys_id>65339373539a9610c9241ab0a0490eaf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 04:00:07</sys_updated_on><value>019ad92ec7230010393d265c95c260dd</value><variable display_value="Approval 3">7d929f33539a9610c9241ab0a0490ef6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>ad339373539a9610c9241ab0a0490eae</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 04:00:07</sys_created_on><sys_id>a1339373539a9610c9241ab0a0490eaf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 04:00:07</sys_updated_on><value/><variable display_value="Approval 4">7992df33539a9610c9241ab0a0490e09</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>ad339373539a9610c9241ab0a0490eae</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-13 04:00:07</sys_created_on><sys_id>e9339373539a9610c9241ab0a0490eaf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-13 04:00:07</sys_updated_on><value>6fcd3b573b331300ad3cc9bb34efc447</value><variable display_value="Approval 1">2d929f33539a9610c9241ab0a0490eb7</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1622138053</payload_hash>
+        <record_name>Approval 3: Analytics Settings Managers, Approval 2: Mobile Analytics Settings Managers, Approval 1:</record_name>
+        <reverted_from/>
+        <source>53807e8f5306d210c9241ab0a0490e8d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:00:07</sys_created_on>
+        <sys_id>e9339373539a9610c9241ab0a0490eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193be2c80860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:00:07</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>ed339373da9a9610493025845bc145b0</update_guid>
+        <update_guid_history>ed339373da9a9610493025845bc145b0:1622138053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-13 04:02:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>3af2abe895644e0095914222cd657900</sys_id>
+        <sys_metadata>ad339373539a9610c9241ab0a0490eae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval 3: Analytics Settings Managers, Approval 2: Mobile Analytics Settings Managers, Approval 1: Problem Solving</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_ad339373539a9610c9241ab0a0490eae</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_ad339373539a9610c9241ab0a0490eae">e9339373539a9610c9241ab0a0490eb1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-13 04:02:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

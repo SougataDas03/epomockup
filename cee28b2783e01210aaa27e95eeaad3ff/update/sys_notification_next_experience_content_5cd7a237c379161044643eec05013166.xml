@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_next_experience_content">
+    <sys_notification_next_experience_content action="INSERT_OR_UPDATE">
+        <action_name/>
+        <action_payload/>
+        <active>false</active>
+        <is_default>false</is_default>
+        <message><![CDATA[ Assigned to: ${assigned_to}
+Approval Status: ${state}
+]]></message>
+        <message_heading><![CDATA[This task is assigned to you]]></message_heading>
+        <name>test for new content</name>
+        <notification display_value="test for workspace">a3412afbc339161044643eec050131c3</notification>
+        <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
+        <sys_class_name>sys_notification_next_experience_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 04:21:23</sys_created_on>
+        <sys_id>5cd7a237c379161044643eec05013166</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test for new content</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_notification_next_experience_content_5cd7a237c379161044643eec05013166</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 05:43:26</sys_updated_on>
+        <use_action>false</use_action>
+    </sys_notification_next_experience_content>
+</record_update>

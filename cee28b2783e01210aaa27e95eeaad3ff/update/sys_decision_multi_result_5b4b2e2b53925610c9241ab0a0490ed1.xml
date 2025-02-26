@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="PIDSAP ePO Approval Matrix">a2842ddc83349210aaa27e95eeaad3be</decision_table>
+        <label>Approval 3: , Approval 2: , Approval 1: </label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 06:27:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b4b2e2b53925610c9241ab0a0490ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval 3: , Approval 2: , Approval 1: </sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_decision_multi_result_5b4b2e2b53925610c9241ab0a0490ed1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 06:27:16</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=5b4b2e2b53925610c9241ab0a0490ed1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>5b4b2e2b53925610c9241ab0a0490ed1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 06:27:16</sys_created_on>
+        <sys_id>5b4b2e2b53925610c9241ab0a0490ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 06:27:16</sys_updated_on>
+        <value>f60f702f8329121038c8f4a6feaad3df</value>
+        <variable display_value="Approval 1">1429695883b49210aaa27e95eeaad32b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>5b4b2e2b53925610c9241ab0a0490ed1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 06:27:16</sys_created_on>
+        <sys_id>974b2e2b53925610c9241ab0a0490ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 06:27:16</sys_updated_on>
+        <value>198f742f8329121038c8f4a6feaad379</value>
+        <variable display_value="Approval 2">9429695883b49210aaa27e95eeaad383</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>5b4b2e2b53925610c9241ab0a0490ed1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 06:27:16</sys_created_on>
+        <sys_id>d34b2e2b53925610c9241ab0a0490ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 06:27:16</sys_updated_on>
+        <value>c9af3c2f8329121038c8f4a6feaad395</value>
+        <variable display_value="Approval 3">d029695883b49210aaa27e95eeaad3f2</variable>
+    </sys_variable_value>
+</record_update>

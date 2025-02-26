@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">bc7c54bd13f5121035527fa4a6d3cd61</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">307c54bdedf51210f58731168b182260</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:02:25</sys_created_on>
+        <sys_id>347c54bd1cf512100c2c3a4038894d5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_347c54bd1cf512100c2c3a4038894d5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:02:25</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

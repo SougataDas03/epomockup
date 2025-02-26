@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1097202_epos_approval_history">x_1097202_epos_approval_history</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>APPRO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 09:28:17</sys_created_on>
+        <sys_id>141e49c8c34b5210945e9e1d05013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>APPRO</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_number_141e49c8c34b5210945e9e1d05013176</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:28:17</sys_updated_on>
+    </sys_number>
+</record_update>

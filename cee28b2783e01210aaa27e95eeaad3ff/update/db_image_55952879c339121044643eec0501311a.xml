@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>31952879c339121044643eec0501311f</image>
+        <name>upload_Panasonic_logo_(Blue).svg.png</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:42:17</sys_created_on>
+        <sys_id>55952879c339121044643eec0501311a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>upload_Panasonic_logo_(Blue).svg.png</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>db_image_55952879c339121044643eec0501311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:42:20</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>Panasonic_logo_(Blue).svg.png</file_name>
+        <hash>d35df66ca135642311d393e7391088d4c5006b94c4fb4951ad7d705c8f12a8eb</hash>
+        <image_height>60</image_height>
+        <image_width>375</image_width>
+        <size_bytes>4334</size_bytes>
+        <size_compressed>3937</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:42:19</sys_created_on>
+        <sys_id>31952879c339121044643eec0501311f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:42:19</sys_updated_on>
+        <table_name>db_image</table_name>
+        <table_sys_id>55952879c339121044643eec0501311a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="Panasonic_logo_(Blue).svg.png" sys_id="31952879c339121044643eec0501311f">31952879c339121044643eec0501311f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:42:19</sys_created_on>
+        <sys_id>71952879c339121044643eec0501311f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5236</length>
+        <position>1</position>
+        <sys_attachment display_value="Panasonic_logo_(Blue).svg.png" sys_id="31952879c339121044643eec0501311f">31952879c339121044643eec0501311f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:42:19</sys_created_on>
+        <sys_id>f1952879c339121044643eec0501311f</sys_id>
+    </sys_attachment_doc>
+</record_update>

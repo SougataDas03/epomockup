@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1152000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>ework__compare_currency_limit</internal_name>
+        <label_cache>[{"name":"e3447c30-da56-439e-913c-528b30dab4bf.Record.limit","label":"3 - Look Up Record➛Currency Limit Record➛Limit","reference":"","reference_display":"Limit","type":"integer","base_type":"integer","parent_table_name":"x_1097202_epos_currency_limit","column_name":"limit","usedInstances":{"599941c6-a479-429a-b00d-94fcfa960166":["condition"]}},{"name":"subflow.total_po_amount","label":"Input➛total_po_amount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"599941c6-a479-429a-b00d-94fcfa960166":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f80bfd81-531e-4bab-8df7-ce9c80b2520f"}},{"name":"80aea96d-3d8f-4761-9d14-4ce9bca497ec.Record","label":"2 - Look Up Record➛Currency Record","reference":"fx_currency","reference_display":"Currency","type":"reference","base_type":"reference","usedInstances":{"e3447c30-da56-439e-913c-528b30dab4bf":["conditions"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4468595-5c5a-469b-9790-1d6adcde5b82.Record","label":"1 - Look Up Record➛Company Record","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{"e3447c30-da56-439e-913c-528b30dab4bf":["conditions"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.company","label":"Input➛company","type":"string","base_type":"string","usedInstances":{"b4468595-5c5a-469b-9790-1d6adcde5b82":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e937579-6648-4a52-b748-6f55f343022e"}},{"name":"subflow.currency","label":"Input➛currency","type":"string","base_type":"string","usedInstances":{"80aea96d-3d8f-4761-9d14-4ce9bca497ec":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ea9cb9f1-892a-4f03-89c6-f70e395b9fec"}}]</label_cache>
+        <master_snapshot>1082655c83349210aaa27e95eeaad3b9</master_snapshot>
+        <master_snapshot_digest/>
+        <name>eWork - Compare Currency Limit</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:55:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f61e51d483b09210aaa27e95eeaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eWork - Compare Currency Limit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_hub_flow_f61e51d483b09210aaa27e95eeaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:04:12</sys_updated_on>
+        <type>subflow</type>
+        <version/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3^id=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN7e1e51d483b09210aaa27e95eeaad3f6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f61e51d483b09210aaa27e95eeaad3f3</id>
+        <name>eWork - Compare Currency Limit</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:55:34</sys_created_on>
+        <sys_id>7e1e51d483b09210aaa27e95eeaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:55:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7e1e51d483b09210aaa27e95eeaad3f6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN0472e15c83349210aaa27e95eeaad383,7dfe1d9083f09210aaa27e95eeaad333,b1fe1d9083f09210aaa27e95eeaad32f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f80bfd81-531e-4bab-8df7-ce9c80b2520f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_po_amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_po_amount</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</model>
+        <model_id>f61e51d483b09210aaa27e95eeaad3f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>0472e15c83349210aaa27e95eeaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0472e15c83349210aaa27e95eeaad383"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ea9cb9f1-892a-4f03-89c6-f70e395b9fec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>currency</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>currency</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</model>
+        <model_id>f61e51d483b09210aaa27e95eeaad3f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:19</sys_created_on>
+        <sys_id>7dfe1d9083f09210aaa27e95eeaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7dfe1d9083f09210aaa27e95eeaad333"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4e937579-6648-4a52-b748-6f55f343022e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>company</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>company</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</model>
+        <model_id>f61e51d483b09210aaa27e95eeaad3f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:19</sys_created_on>
+        <sys_id>b1fe1d9083f09210aaa27e95eeaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b1fe1d9083f09210aaa27e95eeaad32f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN0072e15c83349210aaa27e95eeaad392"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ba3efe32-b6d9-4971-ac96-6050b07e3e1b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>result</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</model>
+        <model_id>f61e51d483b09210aaa27e95eeaad3f3</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>0072e15c83349210aaa27e95eeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0072e15c83349210aaa27e95eeaad392"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN5072e15c83349210aaa27e95eeaad3a2,8efe1d9083f09210aaa27e95eeaad3b4,f1fe1d9083f09210aaa27e95eeaad392"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>5072e15c83349210aaa27e95eeaad3a2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:34:12</sys_updated_on>
+        <ui_id>e3447c30-da56-439e-913c-528b30dab4bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5072e15c83349210aaa27e95eeaad3a2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5072e15c83349210aaa27e95eeaad3a2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>1c72e15c83349210aaa27e95eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5072e15c83349210aaa27e95eeaad3a2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>d072e15c83349210aaa27e95eeaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <value>x_1097202_epos_currency_limit</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5072e15c83349210aaa27e95eeaad3a2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5072e15c83349210aaa27e95eeaad3a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>d472e15c83349210aaa27e95eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>company={{b4468595-5c5a-469b-9790-1d6adcde5b82.Record}}^currency={{80aea96d-3d8f-4761-9d14-4ce9bca497ec.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5072e15c83349210aaa27e95eeaad3a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>9872e15c83349210aaa27e95eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>5072e15c83349210aaa27e95eeaad3a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>1072e15c83349210aaa27e95eeaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5072e15c83349210aaa27e95eeaad3a2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5072e15c83349210aaa27e95eeaad3a2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>8efe1d9083f09210aaa27e95eeaad3b4</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:34:12</sys_updated_on>
+        <ui_id>80aea96d-3d8f-4761-9d14-4ce9bca497ec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8efe1d9083f09210aaa27e95eeaad3b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8efe1d9083f09210aaa27e95eeaad3b4</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>02fe1d9083f09210aaa27e95eeaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <value>fx_currency</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8efe1d9083f09210aaa27e95eeaad3b4</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>4efe1d9083f09210aaa27e95eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8efe1d9083f09210aaa27e95eeaad3b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8efe1d9083f09210aaa27e95eeaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>0afe1d9083f09210aaa27e95eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>code={{subflow.currency}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>8efe1d9083f09210aaa27e95eeaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>cafe1d9083f09210aaa27e95eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>8efe1d9083f09210aaa27e95eeaad3b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>46fe1d9083f09210aaa27e95eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8efe1d9083f09210aaa27e95eeaad3b4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8efe1d9083f09210aaa27e95eeaad3b4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>f1fe1d9083f09210aaa27e95eeaad392</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:34:12</sys_updated_on>
+        <ui_id>b4468595-5c5a-469b-9790-1d6adcde5b82</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f1fe1d9083f09210aaa27e95eeaad392"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f1fe1d9083f09210aaa27e95eeaad392</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>0afe1d9083f09210aaa27e95eeaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f1fe1d9083f09210aaa27e95eeaad392</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>cefe1d9083f09210aaa27e95eeaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <value>core_company</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f1fe1d9083f09210aaa27e95eeaad392"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f1fe1d9083f09210aaa27e95eeaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>c2fe1d9083f09210aaa27e95eeaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{subflow.company}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f1fe1d9083f09210aaa27e95eeaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>86fe1d9083f09210aaa27e95eeaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>f1fe1d9083f09210aaa27e95eeaad392</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:20</sys_created_on>
+        <sys_id>0efe1d9083f09210aaa27e95eeaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f1fe1d9083f09210aaa27e95eeaad392"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f1fe1d9083f09210aaa27e95eeaad392"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN5472e15c83349210aaa27e95eeaad3a6,9c72e15c83349210aaa27e95eeaad3ae,d072e15c83349210aaa27e95eeaad3ab,d872e15c83349210aaa27e95eeaad3b1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5872e15c83349210aaa27e95eeaad3a5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>5472e15c83349210aaa27e95eeaad3a6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:50</sys_updated_on>
+        <ui_id>599941c6-a479-429a-b00d-94fcfa960166</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5472e15c83349210aaa27e95eeaad3a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5472e15c83349210aaa27e95eeaad3a6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>d072e15c83349210aaa27e95eeaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:31</sys_updated_on>
+        <value>Total PO amount &gt; limit</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5472e15c83349210aaa27e95eeaad3a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5472e15c83349210aaa27e95eeaad3a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>5072e15c83349210aaa27e95eeaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.total_po_amount}}&gt;{{e3447c30-da56-439e-913c-528b30dab4bf.Record.limit}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>5472e15c83349210aaa27e95eeaad3a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>9c72e15c83349210aaa27e95eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3^id=5472e15c83349210aaa27e95eeaad3a6"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5472e15c83349210aaa27e95eeaad3a6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5472e15c83349210aaa27e95eeaad3a6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9472e15c83349210aaa27e95eeaad3ae</block>
+        <comment/>
+        <connected_to>599941c6-a479-429a-b00d-94fcfa960166</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>9c72e15c83349210aaa27e95eeaad3ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:50</sys_updated_on>
+        <ui_id>c4a2e039-2066-4b33-87ec-cfb6700e61ff</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9c72e15c83349210aaa27e95eeaad3ae"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3^id=9c72e15c83349210aaa27e95eeaad3ae"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9c72e15c83349210aaa27e95eeaad3ae"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c72e15c83349210aaa27e95eeaad3ae"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d872e15c83349210aaa27e95eeaad3aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned>result</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>599941c6-a479-429a-b00d-94fcfa960166</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>d072e15c83349210aaa27e95eeaad3ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:50</sys_updated_on>
+        <ui_id>2d91fb50-518b-4f59-8a71-ff74d08efbc9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d072e15c83349210aaa27e95eeaad3ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d072e15c83349210aaa27e95eeaad3ab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>1072e15c83349210aaa27e95eeaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="result">0072e15c83349210aaa27e95eeaad392</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3^id=d072e15c83349210aaa27e95eeaad3ab"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d072e15c83349210aaa27e95eeaad3ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d072e15c83349210aaa27e95eeaad3ab"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d072e15c83349210aaa27e95eeaad3b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>result</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>c4a2e039-2066-4b33-87ec-cfb6700e61ff</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:31</sys_created_on>
+        <sys_id>d872e15c83349210aaa27e95eeaad3b1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:50</sys_updated_on>
+        <ui_id>70a81f16-b4ea-44b7-a3f9-e503251c699f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d872e15c83349210aaa27e95eeaad3b1"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3^id=d872e15c83349210aaa27e95eeaad3b1"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d872e15c83349210aaa27e95eeaad3b1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d872e15c83349210aaa27e95eeaad3b1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN79fe1d9083f09210aaa27e95eeaad336,8472e15c83349210aaa27e95eeaad386,fdfe1d9083f09210aaa27e95eeaad331"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>currency</element>
+        <help/>
+        <hint/>
+        <label>currency</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:19</sys_created_on>
+        <sys_id>79fe1d9083f09210aaa27e95eeaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3_currency_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_po_amount</element>
+        <help/>
+        <hint/>
+        <label>total_po_amount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>8472e15c83349210aaa27e95eeaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_po_amount</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3_total_po_amount_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>company</element>
+        <help/>
+        <hint/>
+        <label>company</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 08:59:19</sys_created_on>
+        <sys_id>fdfe1d9083f09210aaa27e95eeaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>company</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3_company_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 08:59:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN0072e15c83349210aaa27e95eeaad395"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:30</sys_created_on>
+        <sys_id>0072e15c83349210aaa27e95eeaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>result</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3_result_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>ework__compare_currency_limit</internal_name>
+        <label_cache>[{"name":"e3447c30-da56-439e-913c-528b30dab4bf.Record.limit","label":"3 - Look Up Record➛Currency Limit Record➛Limit","reference":"","reference_display":"Limit","type":"integer","base_type":"integer","parent_table_name":"x_1097202_epos_currency_limit","column_name":"limit","usedInstances":{"599941c6-a479-429a-b00d-94fcfa960166":["condition"]}},{"name":"subflow.total_po_amount","label":"Input➛total_po_amount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"599941c6-a479-429a-b00d-94fcfa960166":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"f80bfd81-531e-4bab-8df7-ce9c80b2520f"}},{"name":"80aea96d-3d8f-4761-9d14-4ce9bca497ec.Record","label":"2 - Look Up Record➛Currency Record","reference":"fx_currency","reference_display":"Currency","type":"reference","base_type":"reference","usedInstances":{"e3447c30-da56-439e-913c-528b30dab4bf":["conditions"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4468595-5c5a-469b-9790-1d6adcde5b82.Record","label":"1 - Look Up Record➛Company Record","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","usedInstances":{"e3447c30-da56-439e-913c-528b30dab4bf":["conditions"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.company","label":"Input➛company","type":"string","base_type":"string","usedInstances":{"b4468595-5c5a-469b-9790-1d6adcde5b82":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4e937579-6648-4a52-b748-6f55f343022e"}},{"name":"subflow.currency","label":"Input➛currency","type":"string","base_type":"string","usedInstances":{"80aea96d-3d8f-4761-9d14-4ce9bca497ec":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ea9cb9f1-892a-4f03-89c6-f70e395b9fec"}}]</label_cache>
+        <master>true</master>
+        <name>eWork - Compare Currency Limit</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1082655c83349210aaa27e95eeaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:47</sys_updated_on>
+        <type>subflow</type>
+        <version/>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9^id=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1082655c83349210aaa27e95eeaad3b9^sys_idNOT IN1482655c83349210aaa27e95eeaad3ba"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1082655c83349210aaa27e95eeaad3b9</id>
+        <name>eWork - Compare Currency Limit</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:47</sys_created_on>
+        <sys_id>1482655c83349210aaa27e95eeaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1482655c83349210aaa27e95eeaad3ba"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1082655c83349210aaa27e95eeaad3b9^sys_idNOT IN5882655c83349210aaa27e95eeaad3bb,9482655c83349210aaa27e95eeaad3e3,e082a55c83349210aaa27e95eeaad304"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f80bfd81-531e-4bab-8df7-ce9c80b2520f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_po_amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>total_po_amount</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</model>
+        <model_id>1082655c83349210aaa27e95eeaad3b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:47</sys_created_on>
+        <sys_id>5882655c83349210aaa27e95eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5882655c83349210aaa27e95eeaad3bb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4e937579-6648-4a52-b748-6f55f343022e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>company</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>company</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</model>
+        <model_id>1082655c83349210aaa27e95eeaad3b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>9482655c83349210aaa27e95eeaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9482655c83349210aaa27e95eeaad3e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ea9cb9f1-892a-4f03-89c6-f70e395b9fec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>currency</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>currency</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</model>
+        <model_id>1082655c83349210aaa27e95eeaad3b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e082a55c83349210aaa27e95eeaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e082a55c83349210aaa27e95eeaad304"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1082655c83349210aaa27e95eeaad3b9^sys_idNOT IN2882a55c83349210aaa27e95eeaad30d"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ba3efe32-b6d9-4971-ac96-6050b07e3e1b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>result</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</model>
+        <model_id>1082655c83349210aaa27e95eeaad3b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2882a55c83349210aaa27e95eeaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2882a55c83349210aaa27e95eeaad30d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1082655c83349210aaa27e95eeaad3b9^sys_idNOT IN2482a55c83349210aaa27e95eeaad33a,6c82a55c83349210aaa27e95eeaad34e,ec82a55c83349210aaa27e95eeaad356"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2482a55c83349210aaa27e95eeaad33a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>b4468595-5c5a-469b-9790-1d6adcde5b82</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2482a55c83349210aaa27e95eeaad33a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2482a55c83349210aaa27e95eeaad33a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>a482a55c83349210aaa27e95eeaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>core_company</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2482a55c83349210aaa27e95eeaad33a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e082a55c83349210aaa27e95eeaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2482a55c83349210aaa27e95eeaad33a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>2482a55c83349210aaa27e95eeaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>ac82a55c83349210aaa27e95eeaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>name={{subflow.company}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>2482a55c83349210aaa27e95eeaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>6082a55c83349210aaa27e95eeaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>2482a55c83349210aaa27e95eeaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e882a55c83349210aaa27e95eeaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2482a55c83349210aaa27e95eeaad33a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2482a55c83349210aaa27e95eeaad33a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>6c82a55c83349210aaa27e95eeaad34e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>80aea96d-3d8f-4761-9d14-4ce9bca497ec</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6c82a55c83349210aaa27e95eeaad34e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6c82a55c83349210aaa27e95eeaad34e</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2c82a55c83349210aaa27e95eeaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6c82a55c83349210aaa27e95eeaad34e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>ec82a55c83349210aaa27e95eeaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>fx_currency</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c82a55c83349210aaa27e95eeaad34e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>6c82a55c83349210aaa27e95eeaad34e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e482a55c83349210aaa27e95eeaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>code={{subflow.currency}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>6c82a55c83349210aaa27e95eeaad34e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>a882a55c83349210aaa27e95eeaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>6c82a55c83349210aaa27e95eeaad34e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2482a55c83349210aaa27e95eeaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6c82a55c83349210aaa27e95eeaad34e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c82a55c83349210aaa27e95eeaad34e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>ec82a55c83349210aaa27e95eeaad356</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>e3447c30-da56-439e-913c-528b30dab4bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec82a55c83349210aaa27e95eeaad356"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ec82a55c83349210aaa27e95eeaad356</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>6082a55c83349210aaa27e95eeaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>x_1097202_epos_currency_limit</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ec82a55c83349210aaa27e95eeaad356</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>ac82a55c83349210aaa27e95eeaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec82a55c83349210aaa27e95eeaad356"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ec82a55c83349210aaa27e95eeaad356</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>6882a55c83349210aaa27e95eeaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>company={{b4468595-5c5a-469b-9790-1d6adcde5b82.Record}}^currency={{80aea96d-3d8f-4761-9d14-4ce9bca497ec.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ec82a55c83349210aaa27e95eeaad356</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2c82a55c83349210aaa27e95eeaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>ec82a55c83349210aaa27e95eeaad356</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>a482a55c83349210aaa27e95eeaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec82a55c83349210aaa27e95eeaad356"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ec82a55c83349210aaa27e95eeaad356"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1082655c83349210aaa27e95eeaad3b9^sys_idNOT IN6482a55c83349210aaa27e95eeaad31c,e082a55c83349210aaa27e95eeaad320,e082a55c83349210aaa27e95eeaad323,ec82a55c83349210aaa27e95eeaad317"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d872e15c83349210aaa27e95eeaad3aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned>result</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>599941c6-a479-429a-b00d-94fcfa960166</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>6482a55c83349210aaa27e95eeaad31c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>2d91fb50-518b-4f59-8a71-ff74d08efbc9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6482a55c83349210aaa27e95eeaad31c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6482a55c83349210aaa27e95eeaad31c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2482a55c83349210aaa27e95eeaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>1</value>
+        <variable display_value="result">2882a55c83349210aaa27e95eeaad30d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9^id=6482a55c83349210aaa27e95eeaad31c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6482a55c83349210aaa27e95eeaad31c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6482a55c83349210aaa27e95eeaad31c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9472e15c83349210aaa27e95eeaad3ae</block>
+        <comment/>
+        <connected_to>599941c6-a479-429a-b00d-94fcfa960166</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e082a55c83349210aaa27e95eeaad320</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>c4a2e039-2066-4b33-87ec-cfb6700e61ff</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e082a55c83349210aaa27e95eeaad320"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9^id=e082a55c83349210aaa27e95eeaad320"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e082a55c83349210aaa27e95eeaad320"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e082a55c83349210aaa27e95eeaad320"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d072e15c83349210aaa27e95eeaad3b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>result</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>c4a2e039-2066-4b33-87ec-cfb6700e61ff</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e082a55c83349210aaa27e95eeaad323</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>70a81f16-b4ea-44b7-a3f9-e503251c699f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e082a55c83349210aaa27e95eeaad323"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9^id=e082a55c83349210aaa27e95eeaad323"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e082a55c83349210aaa27e95eeaad323"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e082a55c83349210aaa27e95eeaad323"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5872e15c83349210aaa27e95eeaad3a5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="eWork - Compare Currency Limit">1082655c83349210aaa27e95eeaad3b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>ec82a55c83349210aaa27e95eeaad317</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <ui_id>599941c6-a479-429a-b00d-94fcfa960166</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ec82a55c83349210aaa27e95eeaad317"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ec82a55c83349210aaa27e95eeaad317</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>2882a55c83349210aaa27e95eeaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <value>Total PO amount &gt; limit</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec82a55c83349210aaa27e95eeaad317"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ec82a55c83349210aaa27e95eeaad317</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>a482a55c83349210aaa27e95eeaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.total_po_amount}}&gt;{{e3447c30-da56-439e-913c-528b30dab4bf.Record.limit}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ec82a55c83349210aaa27e95eeaad317</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e082a55c83349210aaa27e95eeaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9^id=ec82a55c83349210aaa27e95eeaad317"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ec82a55c83349210aaa27e95eeaad317"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec82a55c83349210aaa27e95eeaad317"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9^sys_idNOT IN1c82655c83349210aaa27e95eeaad3df,6882a55c83349210aaa27e95eeaad308,e882655c83349210aaa27e95eeaad3e7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_po_amount</element>
+        <help/>
+        <hint/>
+        <label>total_po_amount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>1c82655c83349210aaa27e95eeaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_po_amount</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9_total_po_amount_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>currency</element>
+        <help/>
+        <hint/>
+        <label>currency</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>6882a55c83349210aaa27e95eeaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>currency</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9_currency_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>company</element>
+        <help/>
+        <hint/>
+        <label>company</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e882655c83349210aaa27e95eeaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>company</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9_company_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9^sys_idNOT INe082a55c83349210aaa27e95eeaad312"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:48</sys_created_on>
+        <sys_id>e082a55c83349210aaa27e95eeaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>result</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9_result_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1082655c83349210aaa27e95eeaad3b9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>f61e51d483b09210aaa27e95eeaad3f3</sys_id>
+        <latest_snapshot>1082655c83349210aaa27e95eeaad3b9</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f61e51d483b09210aaa27e95eeaad3f3"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f61e51d483b09210aaa27e95eeaad3f3^sys_idNOT IN3482a55c83349210aaa27e95eeaad376"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"3482a55c83349210aaa27e95eeaad376","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="eWork - Compare Currency Limit">f61e51d483b09210aaa27e95eeaad3f3</plan_id>
+        <snapshot>476f0d4cc34b5210945e9e1d05013106</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 09:14:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3482a55c83349210aaa27e95eeaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 09:14:49</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

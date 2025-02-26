@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4c588d7d83291210c44f5a96feaad3a7" extends="task" label="ePO Approvals" max_length="40" name="x_1097202_epos_epo_approvals" text_index="true" type="collection">
+        <element label="ePO" max_length="32" name="epo" reference="x_1097202_epos_epo" type="reference"/>
+    </element>
+</database>

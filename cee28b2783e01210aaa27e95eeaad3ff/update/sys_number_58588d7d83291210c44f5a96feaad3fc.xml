@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1097202_epos_epo_approvals">x_1097202_epos_epo_approvals</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>EPO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 05:58:20</sys_created_on>
+        <sys_id>58588d7d83291210c44f5a96feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EPO</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_number_58588d7d83291210c44f5a96feaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 05:58:20</sys_updated_on>
+    </sys_number>
+</record_update>

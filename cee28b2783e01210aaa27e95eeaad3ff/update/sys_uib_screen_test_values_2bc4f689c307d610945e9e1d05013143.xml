@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "view": "workspace-epo-workspace-0",
+        "overrideAppContextConfigIds": false,
+        "actionConfigId": "df28e3db0f1210107d20409dc4767ee0",
+        "ribbonConfigId": "ed358ca194a9d610598abd7c9142237a",
+        "shouldSuppressGlobalEvents": true,
+        "isMappedToAppShell": true
+    },
+    "table": "x_1097202_epos_epo",
+    "sysId": "f86abba8c3035610945e9e1d050131fa",
+    "query": null,
+    "views": null,
+    "activityLogs": null,
+    "extraParams": null,
+    "fields": null,
+    "screen": null,
+    "selectedTabIndex": null,
+    "userPrefs": null
+}</macroponent_config>
+        <screen display_value="Landing Page">23c4f689c307d610945e9e1d05013134</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>vijay</sys_created_by>
+        <sys_created_on>2025-01-10 19:31:04</sys_created_on>
+        <sys_id>2bc4f689c307d610945e9e1d05013143</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2bc4f689c307d610945e9e1d05013143</sys_update_name>
+        <sys_updated_by>vijay</sys_updated_by>
+        <sys_updated_on>2025-01-13 03:26:11</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

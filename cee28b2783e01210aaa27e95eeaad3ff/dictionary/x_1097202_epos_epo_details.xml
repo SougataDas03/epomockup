@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b38132f83681210aaa27e95eeaad34b" label="ePO Details" max_length="40" name="x_1097202_epos_epo_details" text_index="true" type="collection">
+        <element label="Blocking reason" max_length="40" name="blocking_reason" type="string"/>
+        <element default="VND" label="Currency" max_length="40" name="currency" read_only="true" type="string"/>
+        <element default="3782345" label="Customer material number" max_length="40" name="customer_material_number" read_only="true" type="string"/>
+        <element default="03" label="Delivery mode" max_length="40" name="delivery_mode" type="string"/>
+        <element label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element label="ePO number" max_length="32" name="epo_number" reference="x_1097202_epos_epo" type="reference"/>
+        <element default="0020205184" label="Final buyer code" max_length="50" name="final_buyer_code" type="string"/>
+        <element default="GB" label="Final buyer country" max_length="40" name="final_buyer_country" type="string"/>
+        <element default="FARNELL INST" label="Final buyer name" max_length="40" name="final_buyer_name" type="string"/>
+        <element label="GOS No" max_length="40" name="gos_no" type="string"/>
+        <element label="Item category" max_length="40" name="item_category" type="string"/>
+        <element default="CONDUCTIVE POLYMER TANTALUM SOLID CAPACI" label="Material description" max_length="40" name="material_description" read_only="true" type="string"/>
+        <element default="A0040" label="Material group" max_length="40" name="material_group" read_only="true" type="string"/>
+        <element default="10TPC100MG" label="Material number" max_length="40" name="material_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Numbers" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element default="7031" label="Plant" max_length="40" name="plant" type="string"/>
+        <element default="42000" label="PO item amount" max_length="40" name="po_item_amount" type="float"/>
+        <element default="3000" label="Quantity" max_length="40" name="quantity" type="float"/>
+        <element default="No" label="Strategic goods" max_length="40" name="strategic_goods" type="string"/>
+        <element default="1" label="Unit price (Per)" max_length="40" name="unit_price_per" type="string"/>
+        <element default="PC" label="UOM" max_length="40" name="uom" type="string"/>
+        <index name="index">
+            <element name="epo_number"/>
+        </index>
+    </element>
+</database>

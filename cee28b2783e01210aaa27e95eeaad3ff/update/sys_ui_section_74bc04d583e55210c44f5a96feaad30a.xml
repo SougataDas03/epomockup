@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="PO Info" section_id="74bc04d583e55210c44f5a96feaad30a" sys_domain="global" table="x_1097202_epos_epo" version="3" view="Default_view_Copy">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>f4bc04d583e55210c44f5a96feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b8bc04d583e55210c44f5a96feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>7cbc04d583e55210c44f5a96feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>bcbc04d583e55210c44f5a96feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sap_po_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>f0bc04d583e55210c44f5a96feaad3b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_po_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b8bc04d583e55210c44f5a96feaad3b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_entry_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>30bc04d583e55210c44f5a96feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sales_group</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b4bc04d583e55210c44f5a96feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_currency</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>3cbc04d583e55210c44f5a96feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_po_amount</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b0bc04d583e55210c44f5a96feaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_lines</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>38bc04d583e55210c44f5a96feaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bcbc04d583e55210c44f5a96feaad3b3</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>bcbc04d583e55210c44f5a96feaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_indicator</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>34bc04d583e55210c44f5a96feaad3b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_type</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b8bc04d583e55210c44f5a96feaad3b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incoterm</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>30bc04d583e55210c44f5a96feaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>earliest_delivery_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b4bc04d583e55210c44f5a96feaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>3cbc04d583e55210c44f5a96feaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_code</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b0bc04d583e55210c44f5a96feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>38bc04d583e55210c44f5a96feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_country</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>bcbc04d583e55210c44f5a96feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f4bc04d583e55210c44f5a96feaad3b4</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>34bc04d583e55210c44f5a96feaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sold_to_code</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b8bc04d583e55210c44f5a96feaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sold_to_name</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>74bc04d583e55210c44f5a96feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sold_to_country</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>f8bc04d583e55210c44f5a96feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b8bc04d583e55210c44f5a96feaad3b4</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>70bc04d583e55210c44f5a96feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>embargo_check_status</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>f4bc04d583e55210c44f5a96feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>restricted_party_check_status</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>7cbc04d583e55210c44f5a96feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>eiaf_reference</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>f0bc04d583e55210c44f5a96feaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7cbc04d583e55210c44f5a96feaad3b4</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>78bc04d583e55210c44f5a96feaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>fcbc04d583e55210c44f5a96feaad3e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes_from_sap_sap_remarks</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:55</sys_created_on>
+            <sys_id>b4bc04d583e55210c44f5a96feaad3e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PO Info" display_value="PO Info" name="x_1097202_epos_epo" sys_domain="global" view="b0bc00d583e55210c44f5a96feaad3e6">74bc04d583e55210c44f5a96feaad30a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>PO Info</caption>
+            <header>false</header>
+            <name>x_1097202_epos_epo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 12:20:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74bc04d583e55210c44f5a96feaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_epos_epo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+            <sys_update_name>sys_ui_section_74bc04d583e55210c44f5a96feaad30a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 12:20:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view Copy" name="Default_view_Copy">b0bc00d583e55210c44f5a96feaad3e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Credit Information" section_id="5efc1851c3375210945e9e1d050131bb" sys_domain="global" table="x_1097202_epos_abc_demo" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approved_credit_limit</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>16fcd491c3375210945e9e1d05013116</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_card_limit_available</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>5efc1851c3375210945e9e1d050131bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receivables_ar_balance</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>1efcd491c3375210945e9e1d05013116</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>open_sales_order_value</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>dafc1851c3375210945e9e1d050131be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>open_delivery_value</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>16fcd491c3375210945e9e1d05013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>d2fc1851c3375210945e9e1d050131bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_guarantee_expiry</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>1efcd491c3375210945e9e1d05013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_limit_used</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>dafc1851c3375210945e9e1d050131bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credit_limit_used1</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>16fcd491c3375210945e9e1d05013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>special_liability</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>d2fc1851c3375210945e9e1d050131c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sales_order_currency</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>1efcd491c3375210945e9e1d05013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_id>1efcd491c3375210945e9e1d05013115</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Credit Information</caption>
+            <header>false</header>
+            <name>x_1097202_epos_abc_demo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5efc1851c3375210945e9e1d050131bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_epos_abc_demo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+            <sys_update_name>sys_ui_section_5efc1851c3375210945e9e1d050131bb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_ui_section_5efc1851c3375210945e9e1d050131bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Credit Information" section_id="5efc1851c3375210945e9e1d050131bb" sys_domain="global" table="x_1097202_epos_abc_demo" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>approved_credit_limit</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>16fcd491c3375210945e9e1d05013116</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>credit_card_limit_available</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>5efc1851c3375210945e9e1d050131bd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>receivables_ar_balance</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>1efcd491c3375210945e9e1d05013116</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>open_sales_order_value</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>dafc1851c3375210945e9e1d050131be</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>open_delivery_value</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>16fcd491c3375210945e9e1d05013117</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>d2fc1851c3375210945e9e1d050131bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bank_guarantee_expiry</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>1efcd491c3375210945e9e1d05013117</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>credit_limit_used</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>dafc1851c3375210945e9e1d050131bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>credit_limit_used1</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>16fcd491c3375210945e9e1d05013118</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>special_liability</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>d2fc1851c3375210945e9e1d050131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sales_order_currency</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>1efcd491c3375210945e9e1d05013118</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_id>1efcd491c3375210945e9e1d05013115</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Credit Information" display_value="Credit Information" name="x_1097202_epos_abc_demo" sys_domain="global" view="Default view">5efc1851c3375210945e9e1d050131bb</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Credit Information</caption><header>false</header><name>x_1097202_epos_abc_demo</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5efc1851c3375210945e9e1d050131bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1097202_epos_abc_demo</sys_name><sys_overrides/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ui_section_5efc1851c3375210945e9e1d050131bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:17</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1733664832</payload_hash>
+        <record_name>ABC DEMO</record_name>
+        <reverted_from/>
+        <source>9bc80948c30b5210945e9e1d05013112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 09:53:17</sys_created_on>
+        <sys_id>dafcd491c3375210945e9e1d0501311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19513538e290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 09:53:17</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>52fcd491d3375210c1b065f4947f331b</update_guid>
+        <update_guid_history>52fcd491d3375210c1b065f4947f331b:1733664832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 09:54:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>18f661b1a5044caa8652f06f90e5c3a4</sys_id>
+        <sys_metadata>5efc1851c3375210945e9e1d050131bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credit Information</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent display_value="">bdfc5491c3375210945e9e1d050131f6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5efc1851c3375210945e9e1d050131bb</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5efc1851c3375210945e9e1d050131bb">dafcd491c3375210945e9e1d0501311b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 09:54:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

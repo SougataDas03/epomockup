@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.detail_row=short_description,all_tables.display_color=priority,all_tables.live_feed=true,all_tables.text_index_translations=true,extension_model=hierarchy,hasListeners=true,kagami_csindex_enabled=true,largeTable=true,reference_index_include=active" db_object_id="1681893b8d020210d0ad51af4186635c" label="Task" max_length="40" name="task" text_index="true" type="collection">
+        <element choice="1" label="After RFI" max_length="40" name="x_1097202_epos_after_rfi" type="choice">
+            <choice/>
+        </element>
+        <element attributes="no_email=true" label="CC recipients" max_length="4000" name="x_1097202_epos_cc_recipients" reference="sys_user" type="glide_list"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Posted date" max_length="40" name="x_1097202_epos_posted_date" read_only="true" type="glide_date_time" use_dynamic_default="true"/>
+        <element choice="1" label="Posting status" max_length="40" name="x_1097202_epos_posting_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Previous approval lookup" max_length="32" name="x_1097202_epos_previous_approval_lookup" reference="sysapproval_approver" reference_qual="javascript:&quot;sysapproval=&quot; + current.sys_id + &quot;^state=approved&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="RFI count" max_length="40" name="x_1097202_epos_rfi_count" type="integer"/>
+        <element choice="1" label="RFI recipient" max_length="40" name="x_1097202_epos_rfi_recipient" type="choice">
+            <choice/>
+        </element>
+        <element label="Routing level" max_length="40" name="x_1097202_epos_routing_level" type="string"/>
+        <element label="SAP initiated" max_length="40" name="x_1097202_epos_sap_initiated" type="boolean"/>
+    </element>
+</database>

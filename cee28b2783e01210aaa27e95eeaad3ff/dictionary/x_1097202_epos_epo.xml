@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=false" audit="true" db_object_id="00e783a383641210aaa27e95eeaad368" extends="task" label="ePO" max_length="40" name="x_1097202_epos_epo" text_index="true" type="collection">
+        <element label="Applicant group" max_length="32" name="applicant_group" reference="sys_user_group" type="reference"/>
+        <element label="Applicant name" max_length="32" name="applicant_name" reference="sys_user" type="reference"/>
+        <element choice="1" label="Application Status" max_length="40" name="application_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="0" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="1" value="Rejected"/>
+                <element inactive_on_update="false" label="New" sequence="2" value="New"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="3" value="Pending Approval"/>
+            </choice>
+        </element>
+        <element default="X" label="Auto submit PO Indicator" max_length="40" name="auto_manual_submit_flag" read_only="true" type="string"/>
+        <element default="STA" label="Blocking reason" max_length="40" name="blocking_reason" type="string"/>
+        <element default="7950" label="Company code" max_length="40" name="company_code" read_only="true" type="string"/>
+        <element default="PSV" label="Company Code Name" max_length="40" name="company_code_name" read_only="true" type="string"/>
+        <element label="Credit limit check" max_length="40" name="credit_limit_check" type="string"/>
+        <element default="0300000030" label="Customer PO number" max_length="40" name="customer_po_number" read_only="true" type="string"/>
+        <element label="Delivery mode" max_length="40" name="delivery_mode" type="string"/>
+        <element default="ZTUA" label="Document Type" max_length="40" name="document_type" read_only="true" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Earliest delivery date" max_length="40" name="earliest_delivery_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element default="IAF-PMFTH-2400001" label="eIAF reference #" max_length="40" name="eiaf_reference" read_only="true" type="string"/>
+        <element default="No" label="Embargo check status" max_length="40" name="embargo_check_status" read_only="true" type="string"/>
+        <element default="12.35" label="Exchange Rate" max_length="38" name="exchange_rate" read_only="true" type="decimal"/>
+        <element label="External ID" max_length="40" name="external_id" type="string"/>
+        <element label="Final buyer code" max_length="40" name="final_buyer_code" type="string"/>
+        <element label="Final buyer country" max_length="40" name="final_buyer_country" type="string"/>
+        <element label="Final buyer name" max_length="40" name="final_buyer_name" type="string"/>
+        <element default="FOB; MALAYSIA" label="Incoterm" max_length="40" name="incoterm" read_only="true" type="string"/>
+        <element default="FOB" label="Incoterm 1" max_length="40" name="incoterm_1" read_only="true" type="string"/>
+        <element default="FOB" label="Incoterm 2" max_length="40" name="incoterm_2" read_only="true" type="string"/>
+        <element default="N" label="New Revised Indicator" max_length="40" name="new_revised_indicator" read_only="true" type="string"/>
+        <element label="Next approver" max_length="32" name="next_approver" read_only="true" reference="sys_user_group" type="reference"/>
+        <element default="N.A." label="Notes from SAP / SAP remarks" max_length="40" name="notes_from_sap_sap_remarks" read_only="true" type="string"/>
+        <element default="6" label="Number of lines" max_length="40" name="number_of_lines" read_only="true" type="string"/>
+        <element default="Z001" label="Payment Term" max_length="40" name="payment_term" read_only="true" type="string"/>
+        <element default="62826bf03710200044e0bfc8bcbe5df1" label="PO Created By" max_length="32" name="po_created_by" read_only="true" reference="sys_user" type="reference"/>
+        <element default="VND" label="PO currency" max_length="40" name="po_currency" read_only="true" type="string"/>
+        <element default="Trade Non-SCMM" label="PO Doc Type Description" max_length="40" name="po_doc_type_description" read_only="true" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="PO date" max_length="40" name="po_entry_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element default="M" label="PO indicator" max_length="40" name="po_indicator" read_only="true" type="string"/>
+        <element default="STK" label="PO type" max_length="40" name="po_type" read_only="true" type="string"/>
+        <element default="Le Hong Nam" label="Purchasing Group Description" max_length="40" name="purchasing_group_description" read_only="true" type="string"/>
+        <element default="PSV Purchase Org" label="Purchasing Org Description" max_length="40" name="purchasing_org_description" read_only="true" type="string"/>
+        <element default="V13" label="Purch. Group" max_length="40" name="purch_group" read_only="true" type="string"/>
+        <element default="7950" label="Purch. Org." max_length="40" name="purch_org" read_only="true" type="string"/>
+        <element default="No" label="Restricted party check status" max_length="40" name="restricted_party_check_status" read_only="true" type="string"/>
+        <element label="Revision" max_length="40" name="revision" type="string"/>
+        <element default="AE1" label="Sales group" max_length="40" name="sales_group" type="string"/>
+        <element default="0200001916" label="PO number" max_length="40" name="sap_po_number" read_only="true" type="string"/>
+        <element default="0000029914" label="Sold-to code" max_length="40" name="sold_to_code" read_only="true" type="string"/>
+        <element default="KR" label="Sold-to country" max_length="40" name="sold_to_country" read_only="true" type="string"/>
+        <element default="PANASONIC INDUSTRIAL DEVICES SALES" label="Sold-to name" max_length="40" name="sold_to_name" read_only="true" type="string"/>
+        <element label="Submitted date" max_length="40" name="submitted_date" read_only="true" type="glide_date"/>
+        <element default="1.2765" label="Total PO amount (Before VAT)" max_length="40" name="total_po_amount" read_only="true" type="float"/>
+        <element default="3000" label="Total PO Qty." max_length="40" name="total_po_quantity" read_only="true" type="integer"/>
+        <element default="PC" label="UOM" max_length="40" name="unit_of_measure_uom" read_only="true" type="string"/>
+        <element default="N.A." label="URL Links" max_length="40" name="url_links" read_only="true" type="string"/>
+        <element default="0000027940" label="Vendor code" max_length="40" name="vendor_code" read_only="true" type="string"/>
+        <element default="MY" label="Vendor country" max_length="40" name="vendor_country" read_only="true" type="string"/>
+        <element default="PANASONIC APPLIANCES AIR-CONDITIONI" label="Vendor name" max_length="40" name="vendor_name" read_only="true" type="string"/>
+    </element>
+</database>

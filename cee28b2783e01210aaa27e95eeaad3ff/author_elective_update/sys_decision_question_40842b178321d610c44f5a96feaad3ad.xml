@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>1184af5f83ed9610c44f5a96feaad376</answer>
+        <condition/>
+        <decision_table display_value="PIDSAP ePO Approval Matrix">a2842ddc83349210aaa27e95eeaad3be</decision_table>
+        <default_answer>true</default_answer>
+        <input_table>var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be</input_table>
+        <label>PIDSAP ePO Approval Matrix default result</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 09:11:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40842b178321d610c44f5a96feaad3ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PIDSAP ePO Approval Matrix default result</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_decision_question_40842b178321d610c44f5a96feaad3ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-05 02:49:25</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>b94ad51f1bf08e587d9d2f8dee4bcbf0</instance_id>
+        <instance_name>dev241317</instance_name>
+        <name>sys_decision_question_40842b178321d610c44f5a96feaad3ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>1184af5f83ed9610c44f5a96feaad376</answer><condition/><decision_table display_value="PIDSAP ePO Approval Matrix">a2842ddc83349210aaa27e95eeaad3be</decision_table><default_answer>true</default_answer><input_table>var__m_sys_decision_input_a2842ddc83349210aaa27e95eeaad3be</input_table><label>PIDSAP ePO Approval Matrix default result</label><marked_for_deletion>true</marked_for_deletion><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-04 09:11:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40842b178321d610c44f5a96feaad3ad</sys_id><sys_mod_count>2</sys_mod_count><sys_name>PIDSAP ePO Approval Matrix default result</sys_name><sys_overrides/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_decision_question_40842b178321d610c44f5a96feaad3ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-05 02:49:25</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-568627173</payload_hash>
+        <record_name>PIDSAP ePO Approval Matrix default result</record_name>
+        <reverted_from/>
+        <source>ae5a7ce783e5121038c8f4a6feaad399</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-05 02:49:25</sys_created_on>
+        <sys_id>d3961fa78325521038c8f4a6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192fa3a1bfc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-05 02:49:25</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>5b961fa7eb2552102bd4b7ad7dce71e2</update_guid>
+        <update_guid_history>5b961fa7eb2552102bd4b7ad7dce71e2:-568627173,eb1a702f82e512107489e381e9566e0d:-707854618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-05 02:49:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>173953902fa14d6a862c4364bc7a5f09</sys_id>
+        <sys_metadata>40842b178321d610c44f5a96feaad3ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PIDSAP ePO Approval Matrix default result</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_decision_question_40842b178321d610c44f5a96feaad3ad</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_40842b178321d610c44f5a96feaad3ad">d3961fa78325521038c8f4a6feaad3e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-05 02:49:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

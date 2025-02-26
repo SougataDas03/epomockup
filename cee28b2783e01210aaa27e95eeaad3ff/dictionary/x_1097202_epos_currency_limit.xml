@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="247f919483f09210aaa27e95eeaad35e" label="Currency Limit" max_length="40" name="x_1097202_epos_currency_limit" text_index="true" type="collection">
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Currency" max_length="32" name="currency" reference="fx_currency" type="reference"/>
+        <element label="Limit" max_length="40" name="limit" type="integer"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="currency"/>
+        </index>
+    </element>
+</database>

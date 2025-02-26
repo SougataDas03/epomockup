@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="3afcd491c3375210945e9e1d050131d6" sys_domain="global" table="x_1097202_epos_abc_demo" version="3" view="workspace-eso-mockup-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicant_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicant_name.employee_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicant_name.company</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicant_name.department</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>division_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>profit_center_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_list</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>submit_date</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document_reference_no</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document_status</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application_status</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_posting_status</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>routing_level</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>3afcd491c3375210945e9e1d050131db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>post_flag</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_id>32fcd491c3375210945e9e1d050131dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1097202_epos_abc_demo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3afcd491c3375210945e9e1d050131d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_epos_abc_demo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+            <sys_update_name>sys_ui_section_3afcd491c3375210945e9e1d050131d6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace eSO Mockup 0" name="workspace-eso-mockup-0">9669e2c1b7add210b74a0ac5ee43f297</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</application>
+        <file_path/>
+        <instance_id>cca3323adb1a71542f082a5913961937</instance_id>
+        <instance_name>dev208145</instance_name>
+        <name>sys_ui_section_3afcd491c3375210945e9e1d050131d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="3afcd491c3375210945e9e1d050131d6" sys_domain="global" table="x_1097202_epos_abc_demo" version="3" view="workspace-eso-mockup-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>applicant_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applicant_name.employee_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applicant_name.company</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applicant_name.department</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131dd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>division_name</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>profit_center_name</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131de</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>review_list</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131dd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>submit_date</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131d7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>document_reference_no</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131de</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>document_status</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>application_status</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_posting_status</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>routing_level</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>3afcd491c3375210945e9e1d050131db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>post_flag</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_id>32fcd491c3375210945e9e1d050131dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_epos_abc_demo" sys_domain="global" view="9669e2c1b7add210b74a0ac5ee43f297">3afcd491c3375210945e9e1d050131d6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1097202_epos_abc_demo</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-17 09:53:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3afcd491c3375210945e9e1d050131d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1097202_epos_abc_demo</sys_name><sys_overrides/><sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package><sys_policy/><sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope><sys_update_name>sys_ui_section_3afcd491c3375210945e9e1d050131d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-17 09:53:19</sys_updated_on><sys_user/><title>true</title><view display_value="Workspace eSO Mockup 0" name="workspace-eso-mockup-0">9669e2c1b7add210b74a0ac5ee43f297</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1880179383</payload_hash>
+        <record_name>ABC DEMO</record_name>
+        <reverted_from/>
+        <source>9bc80948c30b5210945e9e1d05013112</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 09:53:19</sys_created_on>
+        <sys_id>72fcd491c3375210945e9e1d050131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195135393f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 09:53:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f6fcd491a9375210e691745a22e347e1</update_guid>
+        <update_guid_history>f6fcd491a9375210e691745a22e347e1:-1880179383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 09:54:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2126fb4c26f64f08927b4ca4b9625640</sys_id>
+        <sys_metadata>3afcd491c3375210945e9e1d050131d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1097202_epos_abc_demo</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_parent display_value="">bdfc5491c3375210945e9e1d050131f6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_scope_delete display_value="">a635df81ce854d32b538fed885edec84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3afcd491c3375210945e9e1d050131d6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3afcd491c3375210945e9e1d050131d6">72fcd491c3375210945e9e1d050131e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-17 09:54:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

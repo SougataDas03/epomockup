@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=977000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>epo_posting_subflow</internal_name>
+        <label_cache>[{"name":"subflow.epo","label":"Input➛epo","reference":"x_1097202_epos_epo","reference_display":"ePO","type":"reference","base_type":"reference","column_name":"","usedInstances":{"16a0423a-fc1c-4d0d-80f5-8c88d84afb04":["record"],"d5dde0a7-e75b-4164-b72d-05f032a5f3b4":["record"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"47894882-8981-49af-b4b0-281452851443","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.epo.approval","label":"Input➛epo➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1097202_epos_epo","column_name":"approval","choices":[{"used":false,"label":"Not Yet Requested","image":"","reference":false,"rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task"}},{"used":false,"label":"Requested","image":"","reference":false,"rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task"}},{"used":false,"label":"Approved","image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task"}},{"used":false,"label":"Rejected","image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task"}}],"usedInstances":{"54371ff3-f8a7-4b35-ba0e-4514ff1f5a2f":["condition"],"63e25eaa-94aa-454a-a093-c0c037e621cd":["condition"]}}]</label_cache>
+        <master_snapshot>761cce988370d210aaa27e95eeaad3e3</master_snapshot>
+        <master_snapshot_digest/>
+        <name>ePO Posting Sub-flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:00:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c68061c83fc9210aaa27e95eeaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ePO Posting Sub-flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_hub_flow_8c68061c83fc9210aaa27e95eeaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 09:04:05</sys_updated_on>
+        <type>subflow</type>
+        <version/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8c68061c83fc9210aaa27e95eeaad386^sys_idNOT IN8068061c83fc9210aaa27e95eeaad388"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8c68061c83fc9210aaa27e95eeaad386</id>
+        <name>ePO Posting Sub-flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:00:15</sys_created_on>
+        <sys_id>8068061c83fc9210aaa27e95eeaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:00:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8068061c83fc9210aaa27e95eeaad388"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8c68061c83fc9210aaa27e95eeaad386^sys_idNOT IN26888e1c83fc9210aaa27e95eeaad37f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=47894882-8981-49af-b4b0-281452851443</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1097202_epos_epo</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>epo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>epo</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</model>
+        <model_id>8c68061c83fc9210aaa27e95eeaad386</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_8c68061c83fc9210aaa27e95eeaad386</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1097202_epos_epo">x_1097202_epos_epo</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:00:57</sys_created_on>
+        <sys_id>26888e1c83fc9210aaa27e95eeaad37f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:00:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26888e1c83fc9210aaa27e95eeaad37f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8c68061c83fc9210aaa27e95eeaad386^sys_idNOT INc01c8a988370d210aaa27e95eeaad359,c41c8a988370d210aaa27e95eeaad389"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>54371ff3-f8a7-4b35-ba0e-4514ff1f5a2f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>c01c8a988370d210aaa27e95eeaad359</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-05 03:20:41</sys_updated_on>
+        <ui_id>16a0423a-fc1c-4d0d-80f5-8c88d84afb04</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c01c8a988370d210aaa27e95eeaad359"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c01c8a988370d210aaa27e95eeaad359</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>0c1c8a988370d210aaa27e95eeaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <value>x_1097202_epos_posting_status=posting_pending</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c01c8a988370d210aaa27e95eeaad359</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>c01c8a988370d210aaa27e95eeaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <value>x_1097202_epos_epo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c01c8a988370d210aaa27e95eeaad359"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c01c8a988370d210aaa27e95eeaad359</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>881c8a988370d210aaa27e95eeaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.epo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c01c8a988370d210aaa27e95eeaad359</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>041c8a988370d210aaa27e95eeaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c01c8a988370d210aaa27e95eeaad359</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>c41c8a988370d210aaa27e95eeaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c01c8a988370d210aaa27e95eeaad359"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c01c8a988370d210aaa27e95eeaad359"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>63e25eaa-94aa-454a-a093-c0c037e621cd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>c41c8a988370d210aaa27e95eeaad389</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-05 03:20:41</sys_updated_on>
+        <ui_id>d5dde0a7-e75b-4164-b72d-05f032a5f3b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c41c8a988370d210aaa27e95eeaad389"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c41c8a988370d210aaa27e95eeaad389</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>001c8a988370d210aaa27e95eeaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <value>x_1097202_epos_posting_status=posting_failed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c41c8a988370d210aaa27e95eeaad389</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>c01c8a988370d210aaa27e95eeaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <value>x_1097202_epos_epo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c41c8a988370d210aaa27e95eeaad389"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c41c8a988370d210aaa27e95eeaad389</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>8c1c8a988370d210aaa27e95eeaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.epo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c41c8a988370d210aaa27e95eeaad389</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>081c8a988370d210aaa27e95eeaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c41c8a988370d210aaa27e95eeaad389</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>c81c8a988370d210aaa27e95eeaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c41c8a988370d210aaa27e95eeaad389"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c41c8a988370d210aaa27e95eeaad389"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8c68061c83fc9210aaa27e95eeaad386^sys_idNOT IN081c8a988370d210aaa27e95eeaad35d,770c4a988370d210aaa27e95eeaad3f9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">481c8a988370d210aaa27e95eeaad35c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>081c8a988370d210aaa27e95eeaad35d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <ui_id>63e25eaa-94aa-454a-a093-c0c037e621cd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=081c8a988370d210aaa27e95eeaad35d"/>
+    <sys_element_mapping action="delete_multiple" query="id=081c8a988370d210aaa27e95eeaad35d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>081c8a988370d210aaa27e95eeaad35d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>401c8a988370d210aaa27e95eeaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.epo.approval}}=rejected</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=081c8a988370d210aaa27e95eeaad35d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=081c8a988370d210aaa27e95eeaad35d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b30c4a988370d210aaa27e95eeaad3f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>770c4a988370d210aaa27e95eeaad3f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <ui_id>54371ff3-f8a7-4b35-ba0e-4514ff1f5a2f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=770c4a988370d210aaa27e95eeaad3f9"/>
+    <sys_element_mapping action="delete_multiple" query="id=770c4a988370d210aaa27e95eeaad3f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>770c4a988370d210aaa27e95eeaad3f9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:21</sys_created_on>
+        <sys_id>fb0c4a988370d210aaa27e95eeaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.epo.approval}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=770c4a988370d210aaa27e95eeaad3f9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=770c4a988370d210aaa27e95eeaad3f9"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8c68061c83fc9210aaa27e95eeaad386^sys_idNOT INee884adc83fc9210aaa27e95eeaad3ff"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>epo</element>
+        <help/>
+        <hint/>
+        <label>epo</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8c68061c83fc9210aaa27e95eeaad386</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:00:58</sys_created_on>
+        <sys_id>ee884adc83fc9210aaa27e95eeaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>epo</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8c68061c83fc9210aaa27e95eeaad386_epo_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:00:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>epo_posting_subflow</internal_name>
+        <label_cache>[{"name":"subflow.epo","label":"Input➛epo","reference":"x_1097202_epos_epo","reference_display":"ePO","type":"reference","base_type":"reference","column_name":"","usedInstances":{"16a0423a-fc1c-4d0d-80f5-8c88d84afb04":["record"],"d5dde0a7-e75b-4164-b72d-05f032a5f3b4":["record"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"47894882-8981-49af-b4b0-281452851443","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.epo.approval","label":"Input➛epo➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_1097202_epos_epo","column_name":"approval","choices":[{"used":false,"label":"Not Yet Requested","image":"","reference":false,"rawLabel":"Not Yet Requested","selected":false,"missing":false,"value":"not requested","parameters":{"name":"task"}},{"used":false,"label":"Requested","image":"","reference":false,"rawLabel":"Requested","selected":false,"missing":false,"value":"requested","parameters":{"name":"task"}},{"used":false,"label":"Approved","image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"approved","parameters":{"name":"task"}},{"used":false,"label":"Rejected","image":"","reference":false,"rawLabel":"Rejected","selected":false,"missing":false,"value":"rejected","parameters":{"name":"task"}}],"usedInstances":{"54371ff3-f8a7-4b35-ba0e-4514ff1f5a2f":["condition"],"63e25eaa-94aa-454a-a093-c0c037e621cd":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>ePO Posting Sub-flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>761cce988370d210aaa27e95eeaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:33</sys_updated_on>
+        <type>subflow</type>
+        <version/>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=761cce988370d210aaa27e95eeaad3e3^sys_idNOT INfe1cce988370d210aaa27e95eeaad3e4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>761cce988370d210aaa27e95eeaad3e3</id>
+        <name>ePO Posting Sub-flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:33</sys_created_on>
+        <sys_id>fe1cce988370d210aaa27e95eeaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fe1cce988370d210aaa27e95eeaad3e4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=761cce988370d210aaa27e95eeaad3e3^sys_idNOT IN361cce988370d210aaa27e95eeaad3e6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=47894882-8981-49af-b4b0-281452851443</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1097202_epos_epo</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>epo</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>epo</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="ePO Posting Sub-flow">761cce988370d210aaa27e95eeaad3e3</model>
+        <model_id>761cce988370d210aaa27e95eeaad3e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_761cce988370d210aaa27e95eeaad3e3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1097202_epos_epo">x_1097202_epos_epo</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:33</sys_created_on>
+        <sys_id>361cce988370d210aaa27e95eeaad3e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=361cce988370d210aaa27e95eeaad3e6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=761cce988370d210aaa27e95eeaad3e3^sys_idNOT INc31c02d88370d210aaa27e95eeaad391,cf1c02d88370d210aaa27e95eeaad365"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ePO Posting Sub-flow">761cce988370d210aaa27e95eeaad3e3</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>63e25eaa-94aa-454a-a093-c0c037e621cd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>c31c02d88370d210aaa27e95eeaad391</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <ui_id>d5dde0a7-e75b-4164-b72d-05f032a5f3b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c31c02d88370d210aaa27e95eeaad391"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c31c02d88370d210aaa27e95eeaad391</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>031c02d88370d210aaa27e95eeaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <value>x_1097202_epos_epo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c31c02d88370d210aaa27e95eeaad391</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>4f1c02d88370d210aaa27e95eeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <value>x_1097202_epos_posting_status=posting_failed</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c31c02d88370d210aaa27e95eeaad391"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c31c02d88370d210aaa27e95eeaad391</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>cb1c02d88370d210aaa27e95eeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.epo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c31c02d88370d210aaa27e95eeaad391</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>471c02d88370d210aaa27e95eeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c31c02d88370d210aaa27e95eeaad391</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>0b1c02d88370d210aaa27e95eeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c31c02d88370d210aaa27e95eeaad391"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c31c02d88370d210aaa27e95eeaad391"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="ePO Posting Sub-flow">761cce988370d210aaa27e95eeaad3e3</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>54371ff3-f8a7-4b35-ba0e-4514ff1f5a2f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>cf1c02d88370d210aaa27e95eeaad365</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <ui_id>16a0423a-fc1c-4d0d-80f5-8c88d84afb04</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf1c02d88370d210aaa27e95eeaad365"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf1c02d88370d210aaa27e95eeaad365</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>031c02d88370d210aaa27e95eeaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <value>x_1097202_epos_epo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf1c02d88370d210aaa27e95eeaad365</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>0b1c02d88370d210aaa27e95eeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <value>x_1097202_epos_posting_status=posting_pending</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cf1c02d88370d210aaa27e95eeaad365"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cf1c02d88370d210aaa27e95eeaad365</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>871c02d88370d210aaa27e95eeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.epo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cf1c02d88370d210aaa27e95eeaad365</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>031c02d88370d210aaa27e95eeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cf1c02d88370d210aaa27e95eeaad365</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>c31c02d88370d210aaa27e95eeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf1c02d88370d210aaa27e95eeaad365"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cf1c02d88370d210aaa27e95eeaad365"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=761cce988370d210aaa27e95eeaad3e3^sys_idNOT IN871c02d88370d210aaa27e95eeaad35c,8b1c02d88370d210aaa27e95eeaad34b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">481c8a988370d210aaa27e95eeaad35c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ePO Posting Sub-flow">761cce988370d210aaa27e95eeaad3e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>871c02d88370d210aaa27e95eeaad35c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <ui_id>63e25eaa-94aa-454a-a093-c0c037e621cd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=871c02d88370d210aaa27e95eeaad35c"/>
+    <sys_element_mapping action="delete_multiple" query="id=871c02d88370d210aaa27e95eeaad35c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>871c02d88370d210aaa27e95eeaad35c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>4f1c02d88370d210aaa27e95eeaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.epo.approval}}=rejected</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=871c02d88370d210aaa27e95eeaad35c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=871c02d88370d210aaa27e95eeaad35c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b30c4a988370d210aaa27e95eeaad3f8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="ePO Posting Sub-flow">761cce988370d210aaa27e95eeaad3e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>8b1c02d88370d210aaa27e95eeaad34b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <ui_id>54371ff3-f8a7-4b35-ba0e-4514ff1f5a2f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8b1c02d88370d210aaa27e95eeaad34b"/>
+    <sys_element_mapping action="delete_multiple" query="id=8b1c02d88370d210aaa27e95eeaad34b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8b1c02d88370d210aaa27e95eeaad34b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_id>c31c02d88370d210aaa27e95eeaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.epo.approval}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8b1c02d88370d210aaa27e95eeaad34b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8b1c02d88370d210aaa27e95eeaad34b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_761cce988370d210aaa27e95eeaad3e3^sys_idNOT IN071c02d88370d210aaa27e95eeaad343"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>epo</element>
+        <help/>
+        <hint/>
+        <label>epo</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_761cce988370d210aaa27e95eeaad3e3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:33</sys_created_on>
+        <sys_id>071c02d88370d210aaa27e95eeaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>epo</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_761cce988370d210aaa27e95eeaad3e3_epo_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_761cce988370d210aaa27e95eeaad3e3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>8c68061c83fc9210aaa27e95eeaad386</sys_id>
+        <latest_snapshot>761cce988370d210aaa27e95eeaad3e3</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch2-09-25-2024_10-06-2024_2304.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=8c68061c83fc9210aaa27e95eeaad386"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8c68061c83fc9210aaa27e95eeaad386^sys_idNOT IN471c02d88370d210aaa27e95eeaad3bb"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"471c02d88370d210aaa27e95eeaad3bb","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="ePO Posting Sub-flow">8c68061c83fc9210aaa27e95eeaad386</plan_id>
+        <snapshot>d1cd17638365521038c8f4a6feaad34d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:16:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>471c02d88370d210aaa27e95eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:16:34</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8ec143acc3f59610945e9e1d0501316a" extends="task" label="Approval History" max_length="40" name="u_approval_history" text_index="true" type="collection">
+        <element label="Approver" max_length="32" name="x_1097202_epos_approver" reference="sys_user" type="reference"/>
+        <element label="Assignment Date &amp; Time" max_length="255" name="x_1097202_epos_assign_date_time" type="calendar_date_time"/>
+        <element label="Comment" max_length="40" name="x_1097202_epos_comment" type="string"/>
+        <element choice="3" label="Decision Taken" max_length="40" name="x_1097202_epos_decision_taken" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="Requested"/>
+                <element inactive_on_update="false" label="Get Back" sequence="1" value="Get Back"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="RFI" sequence="3" value="RFI"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Posted" sequence="5" value="Posted"/>
+            </choice>
+        </element>
+        <element label="Level" max_length="40" name="x_1097202_epos_level" type="integer"/>
+        <element label="Parent" max_length="32" name="x_1097202_epos_parent" reference="x_1097202_epos_epo" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Decision Date &amp; Time" max_length="40" name="x_1097202_epos_update" type="calendar_date_time"/>
+        <element label="Assignment Group" max_length="32" name="x_1097202_epos_user_role" reference="sys_user_group" type="reference"/>
+    </element>
+</database>

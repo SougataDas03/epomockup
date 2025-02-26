@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom_portal_approval_x_1097202_epos</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-11 13:02:27</sys_created_on>
+        <sys_id>307c54bdc8f51210704abde0803e2f7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom portal (x_1097202_epos)</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ui_view_307c54bdc8f51210704abde0803e2f7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-11 13:02:27</sys_updated_on>
+        <title>Custom portal (x_1097202_epos)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Approval Engine" source="com.snc.approvals">49e309f78d820210d0ad51af41866346</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-04 08:49:50</sys_created_on>
+        <sys_id>158f97d383ad9610c44f5a96feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:49:50</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

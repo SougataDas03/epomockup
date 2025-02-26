@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_11",
+        "elementLabel": "Column layout 11",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__eeGeeZxPueeCUTrjjheeNhhBxQNccRH__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "33eaddad37cf901283bbdc7a574773b9",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "icon_3",
+                                "elementLabel": "Icon 3",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "tags-fill"
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "xl"
+                                    },
+                                    "supportRtl": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "margin": "var(--now-scalable-space--xl)",
+                                        "margin-bottom": "15px",
+                                        "margin-left": "var(--now-scalable-space--sm)",
+                                        "margin-right": "-10px",
+                                        "margin-top": "15px",
+                                        "padding-left": "-30px",
+                                        "padding-right": "-30px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "icon_3"
+                                    }
+                                ],
+                                "root": null,
+                                "styles": {
+                                    "background": "rgb(var(--now-color--neutral-2))",
+                                    "box-sizing": "border-box",
+                                    "display": "flex",
+                                    "flex-direction": "row",
+                                    "gap": "0",
+                                    "height": "100%",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "disableAutoReflow": true,
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {},
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {},
+                                        "internal": {}
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "display": "contents"
+                        }
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__TZdaahhvWwCElUjjQiiFDEbbBjjWOD__column_2",
+                    "elementLabel": "Column 2",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_23",
+                                "elementLabel": "Stylized text 23",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h3"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Sales"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "rgb(var(--now-color--neutral-2))",
+                                        "flex": "none",
+                                        "padding-left": "0"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_23"
+                                    }
+                                ],
+                                "root": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "disableAutoReflow": true,
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {},
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {},
+                                        "internal": {}
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "display": "contents"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__eeGeeZxPueeCUTrjjheeNhhBxQNccRH__column_1"
+                        },
+                        {
+                            "element_id": "__TZdaahhvWwCElUjjQiiFDEbbBjjWOD__column_2"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "display": "grid",
+                        "grid-auto-columns": "1fr",
+                        "grid-auto-rows": "1fr",
+                        "grid-template-columns": "5.000995222929939fr 94.99900477707006fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "disableAutoReflow": true,
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "grid-template-columns": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {},
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "grid-template-columns": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 5.000995222929939
+                            },
+                            {
+                                "columnNumber": 2,
+                                "unit": "%",
+                                "width": 94.99900477707006
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {},
+                            "internal": {}
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "display": "contents"
+            }
+        }
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_8",
+        "elementLabel": "Container 8",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "e772e788e32ce32b8daa2ac7b092d2c6",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "card_base_container_22",
+                    "elementLabel": "Card Base Container 22",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_16",
+                                "elementLabel": "Stylized text 16",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "pre"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "eQuote     &gt;"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "#EDBB99",
+                                        "font-size": "20px",
+                                        "font-weight": "bold",
+                                        "margin": "-20px",
+                                        "margin-bottom": "-20px",
+                                        "margin-left": "-20px",
+                                        "margin-right": "-20px",
+                                        "margin-top": "-20px",
+                                        "padding": "var(--now-scalable-space--sm)",
+                                        "padding-bottom": "var(--now-scalable-space--sm)",
+                                        "padding-left": "var(--now-scalable-space--sm)",
+                                        "padding-right": "var(--now-scalable-space--md)",
+                                        "padding-top": "var(--now-scalable-space--sm)",
+                                        "width": "150px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_16"
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "interaction": {
+                            "type": "JSON_LITERAL",
+                            "value": "click"
+                        },
+                        "manageSelected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "selected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sidebar": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "lg"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "margin": "0",
+                            "margin-bottom": "0",
+                            "margin-left": "var(--now-scalable-space--xxl)",
+                            "margin-right": "0",
+                            "margin-top": "0",
+                            "padding": "var(--now-scalable-space--xl)",
+                            "padding-bottom": "var(--now-scalable-space--xl)",
+                            "padding-left": "var(--now-scalable-space--xl)",
+                            "padding-right": "var(--now-scalable-space--xxl)",
+                            "padding-top": "var(--now-scalable-space--xl)"
+                        }
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "e772e788e32ce32b8daa2ac7b092d2c6",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "card_base_container_23",
+                    "elementLabel": "Card Base Container 23",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_17",
+                                "elementLabel": "Stylized text 17",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "pre"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "eSO        &gt;"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "#F7DC6F",
+                                        "font-size": "20px",
+                                        "font-weight": "bold",
+                                        "margin": "-20px",
+                                        "margin-bottom": "-20px",
+                                        "margin-left": "-20px",
+                                        "margin-right": "-20px",
+                                        "margin-top": "-20px",
+                                        "padding": "var(--now-scalable-space--sm)",
+                                        "padding-bottom": "var(--now-scalable-space--sm)",
+                                        "padding-left": "var(--now-scalable-space--sm)",
+                                        "padding-right": "var(--now-scalable-space--md)",
+                                        "padding-top": "var(--now-scalable-space--sm)",
+                                        "width": "150px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_17"
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "interaction": {
+                            "type": "JSON_LITERAL",
+                            "value": "none"
+                        },
+                        "manageSelected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "selected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sidebar": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "lg"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "margin": "0",
+                            "margin-bottom": "0",
+                            "margin-left": "0",
+                            "margin-right": "0",
+                            "margin-top": "0",
+                            "padding": "var(--now-scalable-space--xl)",
+                            "padding-bottom": "var(--now-scalable-space--xl)",
+                            "padding-left": "var(--now-scalable-space--xl)",
+                            "padding-right": "var(--now-scalable-space--xxl)",
+                            "padding-top": "var(--now-scalable-space--xl)"
+                        }
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "e772e788e32ce32b8daa2ac7b092d2c6",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "card_base_container_25",
+                    "elementLabel": "Card Base Container 25",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_19",
+                                "elementLabel": "Stylized text 19",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "pre"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "ePO        &gt;"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "#DAF7A6",
+                                        "font-size": "20px",
+                                        "font-weight": "bold",
+                                        "margin": "-20px",
+                                        "margin-bottom": "-20px",
+                                        "margin-left": "-20px",
+                                        "margin-right": "-20px",
+                                        "margin-top": "-20px",
+                                        "padding": "var(--now-scalable-space--sm)",
+                                        "padding-bottom": "var(--now-scalable-space--sm)",
+                                        "padding-left": "var(--now-scalable-space--sm)",
+                                        "padding-right": "var(--now-scalable-space--md)",
+                                        "padding-top": "var(--now-scalable-space--sm)",
+                                        "width": "150px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_19"
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "interaction": {
+                            "type": "JSON_LITERAL",
+                            "value": "none"
+                        },
+                        "manageSelected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "selected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sidebar": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "lg"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "margin": "0",
+                            "margin-bottom": "0",
+                            "margin-left": "0",
+                            "margin-right": "0",
+                            "margin-top": "0",
+                            "padding": "var(--now-scalable-space--xl)",
+                            "padding-bottom": "var(--now-scalable-space--xl)",
+                            "padding-left": "var(--now-scalable-space--xl)",
+                            "padding-right": "var(--now-scalable-space--xxl)",
+                            "padding-top": "var(--now-scalable-space--xl)"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "card_base_container_22"
+                        },
+                        {
+                            "element_id": "card_base_container_23"
+                        },
+                        {
+                            "element_id": "card_base_container_25"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "flex",
+                        "flex-direction": "row"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "items": [],
+                            "styles": {
+                                "height": "auto"
+                            },
+                            "type": "flex"
+                        },
+                        "queryId": "custom_ff_1"
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {},
+            "queries": [
+                {
+                    "queryId": "custom_ff_1",
+                    "value": {
+                        "height": "auto"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_10",
+        "elementLabel": "Column layout 10",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__ThhbbHSPeeeBEpUeeddGQEdggddpMeUg__column_1",
+                    "elementLabel": "Column 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "33eaddad37cf901283bbdc7a574773b9",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "icon_2",
+                                "elementLabel": "Icon 2",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "analytics-center-fill"
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "xl"
+                                    },
+                                    "supportRtl": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "margin": "var(--now-scalable-space--xl)",
+                                        "margin-bottom": "15px",
+                                        "margin-left": "var(--now-scalable-space--sm)",
+                                        "margin-right": "-10px",
+                                        "margin-top": "15px",
+                                        "padding-left": "-30px",
+                                        "padding-right": "-30px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "icon_2"
+                                    }
+                                ],
+                                "root": null,
+                                "styles": {
+                                    "background": "rgb(var(--now-color--neutral-2))",
+                                    "box-sizing": "border-box",
+                                    "display": "flex",
+                                    "flex-direction": "row",
+                                    "gap": "1px",
+                                    "height": "100%",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "disableAutoReflow": true,
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {},
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {},
+                                        "internal": {}
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "display": "contents"
+                        }
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__ceehhHsLvejjBkBXjjXsPJAEFCRop__column_2",
+                    "elementLabel": "Column 2",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_3",
+                                "elementLabel": "Stylized text 3",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h3"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Finance"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "rgb(var(--now-color--neutral-2))",
+                                        "flex": "none",
+                                        "padding-left": "0"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_3"
+                                    }
+                                ],
+                                "root": null,
+                                "styles": {
+                                    "align-items": "stretch",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "disableAutoReflow": true,
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {},
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "columnNumber": 0,
+                                    "id": "default",
+                                    "styleConfig": {
+                                        "external": {},
+                                        "internal": {}
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "display": "contents"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__ThhbbHSPeeeBEpUeeddGQEdggddpMeUg__column_1"
+                        },
+                        {
+                            "element_id": "__ceehhHsLvejjBkBXjjXsPJAEFCRop__column_2"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "display": "grid",
+                        "grid-auto-columns": "1fr",
+                        "grid-auto-rows": "1fr",
+                        "grid-template-columns": "5.000995222929939fr 94.99900477707006fr",
+                        "grid-template-rows": "1fr",
+                        "width": "auto"
+                    },
+                    "type": "grid"
+                },
+                "disableAutoReflow": true,
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "grid-template-columns": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {},
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "grid-template-columns": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 5.000995222929939
+                            },
+                            {
+                                "columnNumber": 2,
+                                "unit": "%",
+                                "width": 94.99900477707006
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {},
+                            "internal": {}
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "display": "contents"
+            }
+        }
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_9",
+        "elementLabel": "Container 9",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "e772e788e32ce32b8daa2ac7b092d2c6",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "card_base_container_26",
+                    "elementLabel": "Card Base Container 26",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_20",
+                                "elementLabel": "Stylized text 20",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "pre"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "eInvoice   &gt;"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "#F08080",
+                                        "font-size": "20px",
+                                        "font-weight": "bold",
+                                        "margin": "-20px",
+                                        "margin-bottom": "-20px",
+                                        "margin-left": "-20px",
+                                        "margin-right": "-20px",
+                                        "margin-top": "-20px",
+                                        "padding": "var(--now-scalable-space--sm)",
+                                        "padding-bottom": "var(--now-scalable-space--sm)",
+                                        "padding-left": "var(--now-scalable-space--sm)",
+                                        "padding-right": "var(--now-scalable-space--md)",
+                                        "padding-top": "var(--now-scalable-space--sm)",
+                                        "width": "150px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_20"
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "interaction": {
+                            "type": "JSON_LITERAL",
+                            "value": "none"
+                        },
+                        "manageSelected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "selected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sidebar": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "lg"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "margin": "0",
+                            "margin-bottom": "0",
+                            "margin-left": "var(--now-scalable-space--xxl)",
+                            "margin-right": "0",
+                            "margin-top": "0",
+                            "padding": "var(--now-scalable-space--xl)",
+                            "padding-bottom": "var(--now-scalable-space--xl)",
+                            "padding-left": "var(--now-scalable-space--xl)",
+                            "padding-right": "var(--now-scalable-space--xxl)",
+                            "padding-top": "var(--now-scalable-space--xl)"
+                        }
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "e772e788e32ce32b8daa2ac7b092d2c6",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "card_base_container_27",
+                    "elementLabel": "Card Base Container 27",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "oeeleekvpggBUqfjjbcJljjyvCeehhua",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_card.NOW_CARD#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_card.NOW_CARD#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_1097202_epos.NAV_ITEM_SELECTED_RELAY_7408140fc3b5121044643eec0501311f",
+                                        "payload": {
+                                            "container": {
+                                                "external": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "fields": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "multiInstField": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "navigationOptions": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "params": {
+                                                    "container": {
+                                                        "sysId": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        }
+                                                    },
+                                                    "type": "MAP_CONTAINER"
+                                                },
+                                                "passiveNavigation": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "redirect": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "route": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "home"
+                                                },
+                                                "targetRoute": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "title": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                }
+                                            },
+                                            "type": "MAP_CONTAINER"
+                                        },
+                                        "sysId": "4aaf9152c3b1121044643eec05013143"
+                                    },
+                                    "operation": null,
+                                    "targetId": "hheeeeddDaaPgIBENDjjhhUBpUeehhxjjeehhtZ",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "stylized_text_21",
+                                "elementLabel": "Stylized text 21",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "container": {},
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "pre"
+                                    },
+                                    "text": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "eCNDN      &gt;"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": {
+                                    "default": {
+                                        "background": "#5DADE2",
+                                        "font-size": "20px",
+                                        "font-weight": "bold",
+                                        "margin": "-20px",
+                                        "margin-bottom": "-20px",
+                                        "margin-left": "-20px",
+                                        "margin-right": "-20px",
+                                        "margin-top": "-20px",
+                                        "padding": "var(--now-scalable-space--sm)",
+                                        "padding-bottom": "var(--now-scalable-space--sm)",
+                                        "padding-left": "var(--now-scalable-space--sm)",
+                                        "padding-right": "var(--now-scalable-space--md)",
+                                        "padding-top": "var(--now-scalable-space--sm)",
+                                        "width": "150px"
+                                    }
+                                }
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "stylized_text_21"
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "column"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.1.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "interaction": {
+                            "type": "JSON_LITERAL",
+                            "value": "click"
+                        },
+                        "manageSelected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "selected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sidebar": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "lg"
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "margin": "0",
+                            "margin-bottom": "0",
+                            "margin-left": "0",
+                            "margin-right": "0",
+                            "margin-top": "0",
+                            "padding": "var(--now-scalable-space--xl)",
+                            "padding-bottom": "var(--now-scalable-space--xl)",
+                            "padding-left": "var(--now-scalable-space--xl)",
+                            "padding-right": "var(--now-scalable-space--xxl)",
+                            "padding-top": "var(--now-scalable-space--xl)"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "card_base_container_26"
+                        },
+                        {
+                            "element_id": "card_base_container_27"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "flex",
+                        "flex-direction": "row"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "items": [],
+                            "styles": {
+                                "height": "auto"
+                            },
+                            "type": "flex"
+                        },
+                        "queryId": "custom_ff_1"
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {},
+            "queries": [
+                {
+                    "queryId": "custom_ff_1",
+                    "value": {
+                        "height": "auto"
+                    }
+                }
+            ]
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>8508140fc3b5121044643eec05013125</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "column_layout_11"
+            },
+            {
+                "element_id": "container_8"
+            },
+            {
+                "element_id": "column_layout_10"
+            },
+            {
+                "element_id": "container_9"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default3</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Finance",
+  "comment" : ""
+}, {
+  "message" : "Sales",
+  "comment" : ""
+}, {
+  "message" : "eCNDN      &gt;",
+  "comment" : ""
+}, {
+  "message" : "eInvoice   &gt;",
+  "comment" : ""
+}, {
+  "message" : "ePO        &gt;",
+  "comment" : ""
+}, {
+  "message" : "eQuote     &gt;",
+  "comment" : ""
+}, {
+  "message" : "eSO        &gt;",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 09:55:24</sys_created_on>
+        <sys_id>7408140fc3b5121044643eec0501311f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default3</sys_name>
+        <sys_package display_value="ePOs" source="x_1097202_epos">cee28b2783e01210aaa27e95eeaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ePOs">cee28b2783e01210aaa27e95eeaad3ff</sys_scope>
+        <sys_update_name>sys_ux_macroponent_7408140fc3b5121044643eec0501311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 09:55:25</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=7408140fc3b5121044643eec0501311f"/>
+</record_update>
